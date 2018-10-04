@@ -1,5 +1,5 @@
 #' ---
-#' output: github.document
+#' output:github.document
 #' ---
 
 
