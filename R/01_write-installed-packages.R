@@ -3,6 +3,8 @@
 #' ---
 
 
+#oh boy, I stuck a comment on github in this file that I don't have on my local machine
+
 ## deja vu from earlier!
 
 ## create a data frame of your installed packages
