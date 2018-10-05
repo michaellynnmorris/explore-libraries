@@ -1,0 +1,1106 @@
+Package,LibPath,Version,Priority,Depends,Imports,LinkingTo,Suggests,Enhances,License,License_is_FOSS,License_restricts_use,OS_type,MD5sum,NeedsCompilation,Built
+abind,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.4-5,NA,R (>= 1.5.0),"methods, utils",NA,NA,NA,LGPL (>= 2),NA,NA,NA,NA,no,3.4.1
+acepack,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.4.1,NA,NA,NA,NA,testthat,NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+ade4,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.7-10,NA,R (>= 2.10),"graphics, grDevices, methods, stats, utils, MASS",NA,"ade4TkGUI, adegraphics, adephylo, ape, CircStats, deldir,
+lattice, pixmap, sp, spdep, splancs, waveslim",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+afex,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.19-1,NA,"R (>= 3.1.0), lme4 (>= 1.1-8), emmeans","stringr, coin, pbkrtest (>= 0.4-1), lmerTest, car, reshape2,
+stats, methods",NA,"xtable, parallel, plyr, optimx, nloptr, knitr, rmarkdown,
+lattice, latticeExtra, multcomp, testthat, mlmRev, dplyr,
+tidyr, dfoptim, Matrix, psych, ggplot2",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+anesrake,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.80,NA,"Hmisc, weights",NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.4
+anytime,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3.1,NA,R (>= 3.2.0),"Rcpp (>= 0.12.9), RApiDatetime","Rcpp (>= 0.12.9), BH, RApiDatetime",gettz,NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.4
+apaTables,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.0.2,NA,R (>= 3.1.2),"stats, utils, methods, car, broom, dplyr, boot, tibble",NA,"testthat, knitr, rmarkdown, psych, ez, tidyverse, MBESS",NA,MIT License + file LICENSE,NA,NA,NA,NA,no,3.4.3
+aplpack,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.3.0,NA,"R (>= 2.8.0), tcltk",NA,NA,tkrplot,NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.1
+arm,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.9-3,NA,"R (>= 3.1.0), MASS, Matrix (>= 1.0), stats, lme4 (>= 1.0)","abind, coda, graphics, grDevices, methods, nlme, utils",NA,NA,NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+assertive,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3-5,NA,R (>= 3.0.0),"assertive.base (>= 0.0-4), assertive.properties (>= 0.0-2),
+assertive.types (>= 0.0-2), assertive.numbers,
+assertive.strings, assertive.datetimes, assertive.files,
+assertive.sets (>= 0.0-2), assertive.matrices,
+assertive.models, assertive.data, assertive.data.uk,
+assertive.data.us, assertive.reflection (>= 0.0-2),
+assertive.code, knitr",NA,testthat,NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+assertive.base,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0-7,NA,R (>= 3.0.0),"methods, utils",NA,testthat,NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+assertive.code,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0-1,NA,R (>= 3.0.0),"assertive.base (>= 0.0-2), assertive.properties,
+assertive.types, methods",NA,"testthat, devtools",NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+assertive.data,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0-1,NA,R (>= 3.0.0),"assertive.base (>= 0.0-2), assertive.strings",NA,"testthat, devtools",NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+assertive.data.uk,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0-1,NA,R (>= 3.0.0),"assertive.base (>= 0.0-2), assertive.strings",NA,"testthat, devtools",NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+assertive.data.us,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0-1,NA,R (>= 3.0.0),"assertive.base (>= 0.0-2), assertive.strings",NA,"testthat, devtools",NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+assertive.datetimes,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0-2,NA,R (>= 3.0.0),"assertive.base (>= 0.0-2), assertive.types",NA,testthat,NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+assertive.files,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0-2,NA,R (>= 3.0.0),"assertive.base (>= 0.0-2), assertive.numbers",NA,testthat,NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+assertive.matrices,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0-1,NA,R (>= 3.0.0),assertive.base (>= 0.0-2),NA,"testthat, devtools",NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+assertive.models,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0-1,NA,R (>= 3.0.0),"assertive.base (>= 0.0-2), stats",NA,"testthat, devtools",NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+assertive.numbers,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0-2,NA,R (>= 3.0.0),assertive.base (>= 0.0-2),NA,testthat,NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+assertive.properties,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0-4,NA,R (>= 3.0.0),"assertive.base (>= 0.0-7), methods",NA,testthat,NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+assertive.reflection,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0-4,NA,R (>= 3.0.0),"assertive.base (>= 0.0-7), utils",NA,testthat,NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+assertive.sets,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0-3,NA,R (>= 3.0.0),assertive.base (>= 0.0-7),NA,testthat,NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+assertive.strings,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0-3,NA,R (>= 3.0.0),"assertive.base (>= 0.0-2), assertive.types, stringi",NA,testthat,NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+assertive.types,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0-3,NA,R (>= 3.0.0),"assertive.base (>= 0.0-7), assertive.properties, codetools,
+methods, stats",NA,"testthat, data.table, dplyr, xml2",NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+assertr,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.5,NA,NA,"dplyr (>= 0.7.0), MASS, lazyeval, stats, utils, rlang (>=
+0.1.2)",NA,"knitr, testthat, magrittr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.4
+assertthat,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.2.0,NA,NA,tools,NA,testthat,NA,GPL-3,NA,NA,NA,NA,no,3.4.3
+aws.polly,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.2,NA,NA,"httr, jsonlite, aws.signature (>= 0.2.6), tuneR",NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+aws.signature,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3.5,NA,NA,"digest, base64enc",NA,"testthat, aws.ec2metadata (>= 0.1.2)",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+backports,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1.2,NA,R (>= 3.0.0),utils,NA,NA,NA,GPL-2,NA,NA,NA,NA,yes,3.4.3
+base,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.4.3,base,NA,NA,NA,methods,NA,Part of R 3.4.3,NA,NA,NA,NA,NA,3.4.3
+base64enc,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1-3,NA,R (>= 2.9.0),NA,NA,NA,png,GPL-2 | GPL-3,NA,NA,NA,NA,yes,3.4.1
+BayesFactor,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.9.12-2,NA,"R (>= 3.0.2), coda, Matrix (>= 1.1-1)","pbapply, mvtnorm, stringr, utils, graphics, gtools,
+MatrixModels, Rcpp (>= 0.11.2), methods","Rcpp (>= 0.11.2), RcppEigen (>= 0.3.2.2.0)","doMC, foreach, testthat, knitr, markdown, arm, lme4, xtable,
+languageR",NA,GPL-2,NA,NA,NA,NA,yes,3.4.3
+bayesplot,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.4.0,NA,R (>= 3.1.0),"dplyr (>= 0.7.1), ggplot2 (>= 2.2.1), reshape2, stats, utils,
+rlang",NA,"arm, gridExtra (>= 2.2.1), knitr (>= 1.16), loo (>= 1.1.0),
+rmarkdown (>= 1.0.0), rstan (>= 2.14.1), rstanarm (>= 2.14.1),
+rstantools (>= 1.2.0), scales, shinystan (>= 2.3.0), testthat",NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+BBmisc,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.11,NA,NA,"utils, methods, stats, checkmate (>= 1.8.0)",NA,"testthat, microbenchmark, codetools",NA,BSD_2_clause + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+benchmarkme,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.6.0,NA,NA,"Matrix, compiler, httr, methods, benchmarkmeData(>= 0.5.0),
+utils, graphics, parallel, doParallel, foreach",NA,"RcppZiggurat, testthat, DT, knitr, ggplot2, rmarkdown",NA,GPL-2 | GPL-3,NA,NA,NA,NA,no,3.4.3
+benchmarkmeData,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.5.1,NA,NA,"graphics, utils,",NA,"testthat, DT, benchmarkme",NA,GPL-2 | GPL-3,NA,NA,NA,NA,no,3.4.3
+BH,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.65.0-1,NA,NA,NA,NA,NA,NA,BSL-1.0,NA,NA,NA,NA,no,3.4.1
+BiasedUrn,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.07,NA,NA,NA,NA,NA,NA,GPL-3,NA,NA,NA,NA,yes,3.4.1
+bindr,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1,NA,NA,NA,NA,testthat,NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+bindrcpp,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.2,NA,NA,"Rcpp, bindr","Rcpp, plogr",testthat,NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+bit,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1-12,NA,R (>= 2.9.2),NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,yes,3.4.1
+bit64,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.9-7,NA,"R (>= 3.0.1), bit (>= 1.1-12), utils, methods, stats",NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,yes,3.4.1
+bitops,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0-6,NA,NA,NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.1
+blme,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0-4,NA,"R (>= 3.0-0), lme4 (>= 1.0-6)","methods, stats, utils",NA,testthat (>= 0.9-0),NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.4
+blob,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1.0,NA,NA,tibble,NA,"testthat, covr",NA,GPL-3,NA,NA,NA,NA,no,3.4.3
+bookdown,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.7,NA,NA,"htmltools (>= 0.3.6), knitr (>= 1.16), rmarkdown (>= 1.5),
+xfun, tinytex, yaml (>= 2.1.14)",NA,"htmlwidgets, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr
+(>= 0.3), shiny, testit (>= 0.5), tufte, webshot",NA,GPL-3,NA,NA,NA,NA,no,3.4.4
+boot,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.3-20,recommended,"R (>= 3.0.0), graphics, stats",NA,NA,"MASS, survival",NA,Unlimited,NA,NA,NA,NA,no,3.4.3
+brew,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0-6,NA,NA,NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,NA,3.4.1
+bridgesampling,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.4-0,NA,R (>= 3.0.0),"mvtnorm, Matrix, Brobdingnag, stringr, coda, parallel, scales,
+utils, methods",NA,"testthat, Rcpp, RcppEigen, R2jags, rjags, runjags, knitr,
+rmarkdown, R.rsp, BayesFactor, rstan, rstanarm",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+brms,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.1.0,NA,"R (>= 3.2.0), Rcpp (>= 0.12.0), ggplot2 (>= 2.0.0), methods","rstan (>= 2.14.2), loo (>= 1.1.0), Matrix (>= 1.1.1), mgcv (>=
+1.8-13), rstantools (>= 1.3.0), bayesplot (>= 1.3.0), shinystan
+(>= 2.4.0), bridgesampling (>= 0.3-0), matrixStats, nleqslv,
+nlme, coda, abind, stats, utils, parallel, grDevices,",NA,"testthat (>= 0.9.1), RWiener, future, mice, arm, spdep,
+mnormt, MCMCglmm, ape, R.rsp, knitr, rmarkdown",NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+Brobdingnag,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.2-4,NA,"R (>= 2.13.0), methods",NA,NA,NA,NA,GPL,NA,NA,NA,NA,no,3.4.1
+broom,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.5.0,NA,R (>= 3.1),"backports, dplyr, methods, nlme, purrr, reshape2, stringr,
+tibble, tidyr",NA,"AER, akima, AUC, bbmle, betareg, biglm, binGroup, boot, brms,
+btergm, car, caret, coda, covr, e1071, emmeans, ergm, gam (>=
+1.15), gamlss, gamlss.data, gamlss.dist, geepack, ggplot2,
+glmnet, gmm, Hmisc, irlba, joineRML, Kendall, knitr, ks,
+Lahman, lavaan, lfe, lme4, lmodel2, lmtest, lsmeans, maps,
+maptools, MASS, Matrix, mclust, mgcv, muhaz, multcomp, network,
+nnet, orcutt (>= 2.2), ordinal, plm, plyr, poLCA, psych,
+quantreg, rgeos, rmarkdown, robust, rsample, rstan, rstanarm,
+sp, speedglm, statnet.common, survey, survival, testthat,
+tseries, xergm, zoo",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.4
+ca,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.70,NA,R (>= 3.0.0),NA,NA,"rgl (>= 0.64-10), vcd",NA,GPL,NA,NA,NA,NA,no,3.4.3
+callr,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.0.3,NA,NA,"assertthat, crayon, debugme, R6, utils",testthat,"covr, parallel, testthat, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.4
+car,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.1-6,NA,R (>= 3.2.0),"MASS, mgcv, nnet, pbkrtest (>= 0.4-4), quantreg, grDevices,
+utils, stats, graphics",NA,"alr4, boot, coxme, leaps, lme4, lmtest, Matrix, MatrixModels,
+nlme, rgl (>= 0.93.960), sandwich, SparseM, survival, survey",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+carData,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.0-0,NA,R (>= 3.0),NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.1
+caret,C:/Users/mmorris/Documents/R/R-3.4.3/library,6.0-78,NA,"R (>= 2.10), lattice (>= 0.20), ggplot2","foreach, methods, plyr, ModelMetrics (>= 1.1.0), nlme,
+reshape2, stats, stats4, utils, grDevices, recipes (>= 0.0.1),
+withr (>= 2.0.0)",NA,"BradleyTerry2, e1071, earth (>= 2.2-3), fastICA, gam, ipred,
+kernlab, klaR, MASS, ellipse, mda, mgcv, mlbench, MLmetrics,
+nnet, party (>= 0.9-99992), pls, pROC, proxy, randomForest,
+RANN, spls, subselect, pamr, superpc, Cubist, testthat (>=
+0.9.1)",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+caTools,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.17.1,NA,R (>= 2.2.0),bitops,NA,"MASS, rpart",NA,GPL-3,NA,NA,NA,NA,yes,3.4.3
+catR,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.15,NA,R (>= 2.8.0),NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.4
+cattonum,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0.2,NA,R (>= 3.2.0),"dplyr (>= 0.7.0), stats, tidyselect (>= 0.2.3)",NA,"covr, knitr, nycflights13, ranger, rmarkdown, testthat,
+tibble",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.4
+cellranger,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1.0,NA,R (>= 3.0.0),"rematch, tibble",NA,"covr, testthat (>= 1.0.0), knitr, rmarkdown",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+checkmate,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.8.5,NA,R (>= 3.0.0),"backports (>= 1.1.0), utils",NA,"R6, bit, fastmatch, data.table (>= 1.9.8), devtools, ggplot2,
+knitr, magrittr, microbenchmark, rmarkdown, testthat (>=
+0.11.0), tibble",NA,BSD_3_clause + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+chron,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.3-52,NA,R (>= 2.12.0),"graphics, stats",NA,"scales, ggplot2",zoo,GPL-2,NA,NA,NA,NA,yes,3.4.3
+class,C:/Users/mmorris/Documents/R/R-3.4.3/library,7.3-14,recommended,"R (>= 3.0.0), stats, utils",MASS,NA,NA,NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,3.4.3
+classInt,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1-24,NA,R (>= 2.2),"grDevices, stats, graphics, e1071, class",NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+cli,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0.0,NA,R (>= 2.10),"assertthat, crayon, methods",NA,"covr, mockery, testthat, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+clipr,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.4.0,NA,NA,utils,NA,"rstudioapi (>= 0.5), testthat",NA,GPL-3,NA,NA,NA,NA,no,3.4.3
+clisymbols,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.2.0,NA,NA,NA,NA,testthat,NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.4
+cluster,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.0.6,recommended,R (>= 3.0.1),"graphics, grDevices, stats, utils",NA,MASS,NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+coda,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.19-1,NA,R (>= 2.14.0),lattice,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+codebook,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.5.8,NA,R (>= 3.0.1),"stats, methods, graphics, utils, rmarkdown, ggplot2, stringr,
+psych, likert, knitr, rlang, dplyr, tidyr, pander, skimr, DT,
+future, haven, readr, mice, tibble, purrr",NA,"testthat, lme4, roxygen2",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.4
+codetools,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.2-15,recommended,R (>= 2.1),NA,NA,NA,NA,GPL,NA,NA,NA,NA,no,3.4.3
+coin,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.2-2,NA,"R (>= 2.14.0), methods, survival","stats, modeltools (>= 0.2-9), mvtnorm (>= 1.0-5), multcomp",NA,"parallel, xtable, e1071, vcd, TH.data (>= 1.0-7)",NA,GPL-2,NA,NA,NA,NA,yes,3.4.3
+colorspace,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.3-2,NA,"R (>= 2.13.0), methods","graphics, grDevices",NA,"datasets, stats, utils, KernSmooth, MASS, kernlab, mvtnorm,
+vcd, dichromat, tcltk, shiny, shinyjs",NA,BSD_3_clause + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+colourpicker,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0,NA,R (>= 3.1.0),"ggplot2, htmltools, htmlwidgets (>= 0.7), jsonlite, miniUI (>=
+0.1.1), shiny (>= 0.11.1), shinyjs, utils",NA,"knitr (>= 1.7), rmarkdown, rstudioapi (>= 0.5)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+commonmark,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.4,NA,NA,NA,NA,curl,NA,BSD_2_clause + file LICENSE,NA,NA,NA,NA,yes,3.4.4
+compiler,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.4.3,base,NA,NA,NA,NA,NA,Part of R 3.4.3,NA,NA,NA,NA,NA,3.4.3
+conflicted,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.0,NA,R (>= 3.1),rlang,NA,"covr, crayon, testthat",NA,GPL-3,NA,NA,NA,NA,no,3.4.4
+corpcor,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.6.9,NA,R (>= 3.0.2),stats,NA,,NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.1
+cowplot,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.9.2,NA,"R (>= 3.3.0), ggplot2 (>= 2.1.0),","grid (>= 3.0.0), gtable (>= 0.1.2), plyr (>= 1.8.2),
+grDevices, methods, scales, utils",NA,"covr, gridGraphics, knitr, magick, maps, dplyr, tidyr,
+testthat, vdiffr, viridis",NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+cramer,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.9-1,NA,"R (>= 0.65), boot",NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+crayon,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.3.4,NA,NA,"grDevices, methods, utils",NA,"mockery, rstudioapi, testthat, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+crosstalk,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0.0,NA,NA,"htmltools (>= 0.3.5), jsonlite, lazyeval, R6, shiny (>= 0.11),
+ggplot2",NA,NA,NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+crul,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.5.0,NA,NA,"curl (>= 3.1), R6 (>= 2.2.0), urltools (>= 1.6.0), httpcode
+(>= 0.2.0), mime",NA,"testthat, fauxpas (>= 0.1.0), webmockr (>= 0.1.0), knitr,
+jsonlite",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+csvy,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.3,NA,NA,"utils, yaml",NA,"data.table, readr, testthat, datasets",NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+curl,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.1,NA,R (>= 3.0.0),NA,NA,"testthat (>= 1.0.0), knitr, jsonlite, rmarkdown, magrittr,
+httpuv, webutils",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+CVST,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.2-1,NA,"kernlab,Matrix",NA,NA,NA,NA,GPL (>= 2.0),NA,NA,NA,NA,no,3.4.3
+d3Network,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.5.2.1,NA,R (>= 3.0.0),"plyr, rjson, whisker",NA,RCurl,NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+daff,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3.0,NA,NA,"V8 (>= 0.6), jsonlite, utils",NA,testthat,NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.4
+data.table,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.10.4-3,NA,R (>= 3.0.0),methods,NA,"bit64, knitr, nanotime, chron, ggplot2 (>= 0.9.0), plyr,
+reshape, reshape2, testthat (>= 0.4), hexbin, fastmatch, nlme,
+xts, gdata, GenomicRanges, caret, curl, zoo, plm, rmarkdown,
+parallel",NA,GPL-3 | file LICENSE,NA,NA,NA,NA,yes,3.4.3
+data.tree,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.7.5,NA,R (>= 3.0),"R6, stringr, methods, DiagrammeR",NA,"Formula, graphics, testthat, knitr, rmarkdown, ape, yaml,
+networkD3, jsonlite, igraph, treemap, party, partykit,
+doParallel, foreach, htmlwidgets",,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+datapasta,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.0.0,NA,R (>= 3.3.0),"readr (>= 1.0.0), clipr (>= 0.3.0), rstudioapi (>= 0.6)",NA,"tibble (>= 1.2), testthat, knitr, rmarkdown, covr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+datasets,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.4.3,base,NA,NA,NA,NA,NA,Part of R 3.4.3,NA,NA,NA,NA,NA,3.4.3
+DBI,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0.0,NA,"R (>= 3.0.0), methods",NA,NA,"blob, covr, hms, knitr, magrittr, rprojroot, rmarkdown,
+RSQLite (>= 1.1-2), testthat, xml2",NA,LGPL (>= 2),NA,NA,NA,NA,no,3.4.4
+dbplyr,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.2.0,NA,R (>= 3.2),"assertthat (>= 0.2.0), DBI (>= 0.7), dplyr (>= 0.7.4), glue
+(>= 1.2.0), methods, purrr (>= 0.2.4), R6 (>= 2.2.2), rlang (>=
+0.1.6), tibble (>= 1.4.1), tidyselect (>= 0.2.2), utils",NA,"bit64, covr, knitr, Lahman (>= 5.0.0), nycflights13 (>=
+0.2.2), rmarkdown, RMariaDB (>= 1.0.2), RMySQL (>= 0.10.11),
+RPostgreSQL (>= 0.4.1), RSQLite (>= 2.0), testthat (>= 2.0.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+ddalpha,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.3.1.1,NA,"stats, utils, graphics, grDevices, MASS, class, robustbase,
+sfsmisc",Rcpp (>= 0.11.0),"BH, Rcpp",NA,NA,GPL-2,NA,NA,NA,NA,yes,3.4.3
+debugme,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1.0,NA,NA,"crayon, grDevices",NA,"covr, mockery, R6, testthat, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+default,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0.0,NA,NA,NA,NA,testthat,NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.4
+DEoptimR,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0-8,NA,NA,stats,NA,NA,robustbase,GPL (>= 2),NA,NA,NA,NA,no,3.4.1
+desc,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1.1,NA,R (>= 3.1.0),"assertthat, utils, R6, crayon, rprojroot",NA,"covr, testthat, whoami, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+DescTools,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.99.23,NA,"base, stats, R (>= 3.3.1)","graphics, grDevices, methods, MASS, utils, boot, manipulate,
+mvtnorm, foreign, expm, Rcpp (>= 0.12.10)","Rcpp, BH","RDCOMClient, tcltk",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+devtools,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.13.6,NA,R (>= 3.0.2),"httr (>= 0.4), utils, tools, methods, memoise (>= 1.0.0),
+whisker, digest, rstudioapi (>= 0.2.0), jsonlite, stats, git2r
+(>= 0.11.0), withr",NA,"curl (>= 0.9), crayon, testthat (>= 1.0.2), BiocInstaller,
+Rcpp (>= 0.10.0), MASS, rmarkdown, knitr, hunspell (>= 2.0),
+lintr (>= 0.2.1), bitops, roxygen2 (>= 5.0.0), evaluate,
+rversions, covr, gmailr (> 0.7.0)",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.4
+DiagrammeR,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0.0,NA,R (>= 3.2.0),"dplyr (>= 0.7.4), downloader (>= 0.4), glue (>= 1.2.0),
+htmltools (>= 0.3.6), htmlwidgets (>= 1.0), igraph (>= 1.1.2),
+influenceR (>= 0.1.0), magrittr (>= 1.5), purrr (>= 0.2.4),
+RColorBrewer (>= 1.1-2), readr (>= 1.1.1), rlang (>= 0.2.0),
+rstudioapi (>= 0.7), rgexf (>= 0.15.3), scales (>= 0.5.0),
+stringr (>= 1.3.0), tibble (>= 1.4.2), tidyr (>= 0.8.0),
+viridis (>= 0.5.0), visNetwork (>= 2.0.3)",NA,"covr, DiagrammeRsvg, rsvg, knitr, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+dichromat,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.0-0,NA,"R (>= 2.10), stats",NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,NA,3.4.1
+digest,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.6.15,NA,R (>= 2.4.1),NA,NA,"knitr, rmarkdown",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+dimRed,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.0,NA,"R (>= 3.0.0), methods, DRR",NA,NA,"MASS, Matrix, RANN, RSpectra, Rtsne, coRanking, diffusionMap,
+energy, fastICA, ggplot2, graphics, igraph, kernlab, lle, loe,
+optimx, pcaPP, rgl, scales, scatterplot3d, stats, testthat,
+tidyr, vegan",NA,GPL-3 | file LICENSE,NA,NA,NA,NA,yes,3.4.3
+diptest,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.75-7,NA,NA,NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.1
+doAzureParallel,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.6.2,NA,"foreach (>= 1.4.3),
+iterators (>= 1.0.8)","rAzureBatch (>= 0.5.3),
+jsonlite,
+rjson,
+xml2,
+R6",NA,"testthat,
+caret,
+plyr,
+lintr",NA,MIT + file LICENSE,NA,NA,NA,NA,NA,3.4.3
+doParallel,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0.11,NA,"R (>= 2.14.0), foreach(>= 1.2.0), iterators(>= 1.0.0),
+parallel, utils",NA,NA,"caret, mlbench, rpart","compiler, RUnit",GPL-2,NA,NA,NA,NA,no,3.4.3
+downloader,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.4,NA,NA,"utils, digest",NA,testthat,NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+dplyr,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.7.4,NA,R (>= 3.1.2),"assertthat, bindrcpp (>= 0.2), glue (>= 1.1.1), magrittr,
+methods, pkgconfig, rlang (>= 0.1.2), R6, Rcpp (>= 0.12.7),
+tibble (>= 1.3.1), utils","Rcpp (>= 0.12.0), BH (>= 1.58.0-1), bindrcpp, plogr","bit64, covr, dbplyr, dtplyr, DBI, ggplot2, hms, knitr, Lahman
+(>= 3.0-1), mgcv, microbenchmark, nycflights13, rmarkdown,
+RMySQL, RPostgreSQL, RSQLite, testthat, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+drake,C:/Users/mmorris/Documents/R/R-3.4.3/library,6.0.0,NA,R (>= 3.3.0),"codetools, digest, dplyr, evaluate, formatR, fs, future,
+igraph, magrittr, parallel, pkgconfig, purrr, R6, R.utils,
+rlang (>= 0.2.0), stats, storr (>= 1.1.0), stringi, tibble,
+tidyselect (>= 0.2.4), utils, withr",NA,"abind, bindr, callr, clustermq, CodeDepends, crayon, DBI,
+downloader, future.apply, grDevices, ggplot2, ggraph, knitr,
+lubridate, MASS, methods, networkD3, prettycode, RSQLite,
+rprojroot, testthat, txtq, rmarkdown, styler, visNetwork,
+webshot",NA,GPL-3,NA,NA,NA,NA,no,3.4.4
+DRR,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0.3,NA,"kernlab, CVST, Matrix","stats, methods",NA,"knitr, rmarkdown",NA,GPL-3 | file LICENSE,NA,NA,NA,NA,no,3.4.3
+DT,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3,NA,NA,"htmltools (>= 0.3.6), htmlwidgets (>= 0.6), magrittr,
+crosstalk",NA,"jsonlite (>= 0.9.16), knitr (>= 1.8), rmarkdown, shiny (>=
+0.12.1)",NA,GPL-3 | file LICENSE,NA,NA,NA,NA,no,3.4.3
+dummies,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.5.6,NA,utils,NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,NA,3.4.1
+dunn.test,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.3.5,NA,NA,NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,no,3.4.2
+dygraphs,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1.1.4,NA,R (>= 3.0),"magrittr, htmlwidgets (>= 0.6), htmltools (>= 0.3.5), zoo (>=
+1.7-10), xts (>= 0.9-7)",NA,testthat,"rmarkdown (>= 0.3.3), shiny (>= 0.10.2.1)",MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+e1071,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.6-8,NA,NA,"graphics, grDevices, class, stats, methods, utils",NA,"cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable,
+Matrix, MASS",NA,GPL-2,NA,NA,NA,NA,yes,3.4.3
+effects,C:/Users/mmorris/Documents/R/R-3.4.3/library,4.0-0,NA,"R (>= 3.2.0), carData","lme4, nnet, lattice, grid, colorspace, graphics, grDevices,
+stats, survey, utils",NA,"pbkrtest (>= 0.4-4), nlme, MASS, poLCA, heplots, splines,
+ordinal, car, knitr",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+effsize,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.7.1,NA,NA,NA,NA,testthat,NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+ellipse,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.4.1,NA,"R (>= 2.0.0),graphics,stats",NA,NA,MASS,NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+emmeans,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1.2,NA,R (>= 3.2),"estimability (>= 1.3), ggplot2, graphics, methods, stats,
+utils, nlme, coda (>= 0.17), multcomp, plyr, mvtnorm, xtable
+(>= 1.8-2)",NA,"bayesplot, car, lattice, mediation, multcompView, ordinal,
+pbkrtest (>= 0.4-1), lme4, lmerTest (>= 2.0.32), MASS, rsm,
+knitr, rmarkdown, testthat","CARBayes, coxme, gee, geepack, glmmADMB, MCMCglmm, MCMCpack,
+nnet, pscl, rstanarm, survival",GPL-2 | GPL-3,NA,NA,NA,NA,no,3.4.3
+enc,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.2.0,NA,R (>= 3.1),methods,NA,"digest, pillar, readr, rlang, testthat, withr",NA,GPL-3,NA,NA,NA,NA,yes,3.4.4
+estimability,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.3,NA,stats,NA,NA,NA,NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+evaluate,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.10.1,NA,R (>= 3.0.2),"methods, stringr (>= 0.6.2)",NA,"testthat, lattice, ggplot2",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+expm,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.999-2,NA,Matrix,methods,NA,"RColorBrewer, sfsmisc, Rmpfr",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+expss,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.8.6,NA,"R (>= 3.3.0),","foreign, utils, stats, magrittr (>= 1.5), htmlTable (>=
+1.11.0), matrixStats (>= 0.51.0), data.table (>= 1.10),",NA,"DT, htmltools, knitr, repr, ggplot2, testthat",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.4
+extrafont,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.17,NA,R (>= 2.15),"extrafontdb, grDevices, utils, Rttf2pt1",NA,fontcm,NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+extrafontdb,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0,NA,R (>= 2.14),NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,NA,3.4.1
+FactoMineR,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.39,NA,R (>= 3.0.0),"car,cluster,ellipse,flashClust,graphics,grDevices,lattice,leaps,MASS,scatterplot3d,stats,utils",NA,"missMDA,knitr",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+farff,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0,NA,NA,"BBmisc, checkmate (>= 1.8.0), stringi, readr (>= 1.0.0)",NA,"RWeka, testthat, OpenML",NA,BSD_2_clause + file LICENSE,NA,NA,NA,NA,yes,3.4.4
+farver,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0,NA,NA,Rcpp (>= 0.12.15),Rcpp,"testthat,
+covr",NA,MIT + file LICENSE,NA,NA,NA,NA,NA,3.4.3
+fastmatch,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1-0,NA,NA,NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,yes,3.4.1
+fBasics,C:/Users/mmorris/Documents/R/R-3.4.3/library,3042.89,NA,"R (>= 2.15.1), timeDate, timeSeries","stats, grDevices, graphics, methods, utils, MASS, spatial,
+gss, stabledist",NA,"akima, RUnit, tcltk",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+flashClust,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.01-2,NA,R (>= 2.3.0),NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,NA,3.4.1
+flexdashboard,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.5.1,NA,R (>= 3.0.2),"tools, jsonlite, htmltools, knitr (>= 1.13), htmlwidgets (>=
+0.6), rmarkdown (>= 1.0), shiny (>= 0.13)",NA,testthat,NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+flexmix,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.3-14,NA,"R (>= 2.15.0), lattice","graphics, grid, grDevices, methods, modeltools (>= 0.2-16),
+nnet, stats, stats4",NA,"actuar, codetools, diptest, ellipse, gclus, glmnet, lme4 (>=
+1.0), MASS, mgcv (>= 1.8-0), mlbench, mlogit, multcomp,
+mvtnorm, SuppDists, survival",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+FNN,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1,NA,R (>= 2.8.0),NA,NA,"chemometrics, mvtnorm",NA,GPL (>= 2.1),NA,NA,NA,NA,yes,3.4.4
+forcats,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3.0,NA,R (>= 3.1),"magrittr, rlang, tibble",NA,"covr, ggplot2, testthat",NA,GPL-3,NA,NA,NA,NA,no,3.4.3
+foreach,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.4.4,NA,R (>= 2.5.0),"codetools, utils, iterators",NA,randomForest,"compiler, doMC, RUnit, doParallel",Apache License (== 2.0),NA,NA,NA,NA,no,3.4.3
+foreign,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.8-69,recommended,R (>= 3.0.0),"methods, utils, stats",NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+formatR,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.5,NA,R (>= 3.0.2),NA,NA,"codetools, shiny, testit, rmarkdown, knitr",NA,GPL,NA,NA,NA,NA,no,3.4.3
+formattable,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.2.0.1,NA,R (> 3.0.2),"methods, htmltools, htmlwidgets, knitr, rmarkdown",NA,"testthat, DT, shiny, covr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.4
+Formula,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.2-2,NA,"R (>= 2.0.0), stats",NA,NA,NA,NA,GPL-2 | GPL-3,NA,NA,NA,NA,no,3.4.1
+fpc,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.1-11,NA,R (>= 2.0),"MASS, cluster, mclust, flexmix, prabclus, class, diptest,
+mvtnorm, robustbase, kernlab, trimcluster, grDevices, graphics,
+methods, stats, utils",NA,"tclust, pdfCluster",NA,GPL,NA,NA,NA,NA,no,3.4.3
+fs,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.2.6,NA,R (>= 3.1),"methods, Rcpp",Rcpp,"testthat, covr, pillar (>= 1.0.0), crayon, withr",NA,GPL-3,NA,NA,NA,NA,yes,3.4.4
+furrr,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.0,NA,"R (>= 3.2.0), future (>= 1.6.2)","globals (>= 0.10.3), rlang (>= 0.2.0), purrr (>= 0.2.4)",NA,"listenv (>= 0.6.0), dplyr (>= 0.7.4), testthat",NA,LGPL (>= 2.1),NA,NA,NA,NA,no,3.4.4
+future,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.8.1,NA,NA,"digest, globals (>= 0.11.0), listenv (>= 0.7.0), parallel,
+utils",NA,"R.rsp, markdown",NA,LGPL (>= 2.1),NA,NA,NA,NA,no,3.4.4
+gapminder,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3.0,NA,R (>= 3.1.0),tibble,NA,"dplyr, ggplot2, testthat",NA,CC0,NA,NA,NA,NA,no,3.4.3
+gdata,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.18.0,NA,R (>= 2.3.0),"gtools, stats, methods, utils",NA,RUnit,NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+gdtools,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.7,NA,NA,"Rcpp (>= 0.12.12), withr",Rcpp,"htmltools, testthat, fontquiver (>= 0.2.0), curl",NA,GPL-3 | file LICENSE,NA,NA,NA,NA,yes,3.4.4
+gender,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.5.1,NA,"R (>= 3.0.0), utils, stats","dplyr (>= 0.4.2), httr (>= 1.0.0), jsonlite (>= 0.9.16)",NA,"genderdata (>= 0.5.0), ggplot2 (>= 1.0.0), knitr (>= 1.11),
+testthat (>= 0.10.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+geonames,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.998,NA,R (>= 2.2.0),rjson,NA,NA,NA,GPL-3,NA,NA,NA,NA,no,3.4.1
+geosphere,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.5-7,NA,R (>= 3.0.0),sp,NA,"methods, raster",NA,GPL (>= 3),NA,NA,NA,NA,yes,3.4.3
+GGally,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.3.2,NA,R (>= 3.1),"ggplot2 (>= 2.2.0), grDevices, grid, gtable (>= 0.2.0), plyr
+(>= 1.8.3), progress, RColorBrewer, reshape (>= 0.8.5), utils",NA,"broom (>= 0.4.0), chemometrics, geosphere (>= 1.5-1), igraph
+(>= 1.0.1), intergraph (>= 2.0-2), maps (>= 3.1.0), mapproj,
+network (>= 1.12.0), scagnostics, scales (>= 0.4.0), sna (>=
+2.3-2), survival, packagedocs (>= 0.4.0), rmarkdown, roxygen2,
+testthat",NA,GPL (>= 2.0),NA,NA,NA,NA,no,3.4.3
+gganimate,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.9.9.9999,NA,ggplot2,"stringi,
+tweenr,
+transformr,
+grid,
+magick,
+rlang,
+glue,
+sf,
+progress,
+patchwork,
+plyr,
+svglite,
+scales",NA,"knitr,
+rmarkdown,
+testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,NA,3.4.3
+ggcorrplot,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.1,NA,ggplot2,"reshape2, stats",NA,knitr,NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+ggeffects,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3.2,NA,"R (>= 3.2), stats, utils","dplyr (>= 0.7.1), effects (>= 4.0-0), ggplot2 (>= 2.2.1),
+magrittr, prediction (>= 0.2.0), purrr, rlang, scales,
+sjlabelled (>= 1.0.8), sjmisc (>= 2.7.0), sjstats (>= 0.14.1),
+tibble (>= 1.3.3), tidyr (>= 0.7.0), tidyselect",NA,"knitr, MASS, rmarkdown, rstantools",NA,GPL-3,NA,NA,NA,NA,no,3.4.4
+ggExtra,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.7,NA,R (>= 3.1.0),"colourpicker (>= 0.1), ggplot2 (>= 2.2.0), grid (>= 3.1.3),
+gtable (>= 0.2.0), miniUI (>= 0.1.1), shiny (>= 0.13.0),
+shinyjs (>= 0.5.2), utils, grDevices",NA,"knitr (>= 1.7), rmarkdown, rstudioapi (>= 0.5), testthat,
+vdiffr, fontquiver, svglite, withr, devtools",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+ggjoy,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.4.0,NA,"R (>= 3.2), ggplot2 (>= 2.2.0), ggridges (>= 0.4.0),",,NA,"covr, gridExtra, ggplot2movies, forcats, knitr, tidyverse,
+testthat, vdiffr, viridis",NA,GPL-2 | file LICENSE,NA,NA,NA,NA,no,3.4.3
+ggmap,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.6.1,NA,"R (>= 2.14.0), ggplot2 (>= 2.0.0)","proto, RgoogleMaps, png, plyr, reshape2, rjson, mapproj, jpeg,
+geosphere, digest, scales",NA,"MASS, stringr, hexbin, dplyr",NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+ggplot2,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.0.0,NA,R (>= 3.1),"digest,
+grid,
+gtable (>= 0.1.1),
+lazyeval,
+MASS,
+mgcv,
+plyr (>= 1.7.1),
+reshape2,
+rlang,
+scales (>= 0.5.0),
+stats,
+tibble,
+viridisLite,
+withr (>= 2.0.0)",NA,"covr,
+dplyr,
+ggplot2movies,
+hexbin,
+Hmisc,
+lattice,
+mapproj,
+maps,
+maptools,
+multcomp,
+munsell,
+nlme,
+testthat (>= 0.11.0),
+vdiffr,
+quantreg,
+knitr,
+rgeos,
+rpart,
+rmarkdown,
+sf (>= 0.3-4),
+svglite (>= 1.2.0.9001)",sp,GPL-2 | file LICENSE,NA,NA,NA,NA,NA,3.4.3
+ggplotify,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0.2,NA,R (>= 3.4.0),"ggplot2, graphics, grDevices, grid, gridGraphics, rvcheck",NA,"colorspace, cowplot, ggimage, knitr, lattice, prettydoc, vcd",NA,Artistic-2.0,NA,NA,NA,NA,no,3.4.4
+ggrepel,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.7.0,NA,"R (>= 3.0.0), ggplot2 (>= 2.2.0)","grid, Rcpp, scales (>= 0.3.0)",Rcpp,"knitr, rmarkdown, testthat",NA,GPL-3 | file LICENSE,NA,NA,NA,NA,yes,3.4.3
+ggridges,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.4.1,NA,"R (>= 3.2), ggplot2 (>= 2.2.0),","grid (>= 3.0.0), plyr (>= 1.8.0), scales (>= 0.4.1)",NA,"covr, gridExtra, ggplot2movies, forcats, knitr, tidyverse,
+testthat, vdiffr, viridis",NA,GPL-2 | file LICENSE,NA,NA,NA,NA,no,3.4.3
+ggstatsplot,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0.1,NA,R (>= 3.3.3),"apaTables (>= 2.0.2),
+coin (>= 1.2-2),
+cowplot,
+crayon (>= 1.3.4),
+DescTools (>= 0.99.23),
+dplyr,
+effsize (>= 0.7.1),
+ggcorrplot,
+ggExtra (>= 0.7),
+ggplot2 (>= 2.2.1),
+ggrepel (>= 0.7.0),
+grid,
+gtable,
+jmv,
+magrittr,
+MASS (>= 7.3-47),
+rlang (>= 0.2.0),
+RVAideMemoire (>= 0.9-69),
+sfsmisc (>= 1.1-1),
+stats,
+tibble,
+userfriendlyscience (>= 0.7.0),
+WRS2 (>= 0.9-2)",NA,"datasets,
+grDevices,
+knitr,
+rmarkdown",NA,GPL-3 | file LICENSE,NA,NA,NA,NA,NA,3.4.3
+ggthemes,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.5.0,NA,"R (>= 3.0.0),","assertthat, colorspace, ggplot2 (>= 2.2.0), graphics, grid,
+methods, scales",NA,"spelling, dplyr, extrafont, knitr, lintr, maps, mapproj,
+pander, purrr, rmarkdown, testthat, tibble, tidyr",NA,GPL-2,NA,NA,NA,NA,no,3.4.4
+gh,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0.1,NA,NA,"ini, jsonlite, httr",NA,"covr, pingr, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.4
+git2r,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.21.0,NA,"R (>= 3.1), methods","graphics, utils",NA,getPass,NA,GPL-2,NA,NA,NA,NA,yes,3.4.3
+glmmTMB,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.2.0,NA,NA,"methods, TMB (>= 1.7.6), lme4 (>= 1.1-10), Matrix, nlme","TMB, RcppEigen","knitr, testthat, MASS, lattice, ggplot2, mlmRev, bbmle (>=
+1.0.19), pscl, MCMCpack, coda, reshape2",NA,AGPL-3,NA,NA,NA,NA,yes,3.4.4
+glmnet,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.0-13,NA,"Matrix (>= 1.0-6), utils, foreach",methods,NA,"survival, knitr, lars",NA,GPL-2,NA,NA,NA,NA,yes,3.4.3
+globals,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.12.1,NA,R (>= 3.1.2),codetools,NA,NA,NA,LGPL (>= 2.1),NA,NA,NA,NA,no,3.4.4
+glue,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.2.0,NA,R (>= 3.1),methods,NA,"testthat, covr, magrittr, crayon, knitr, rmarkdown, DBI,
+RSQLite, R.utils, forcats, microbenchmark, rprintf, stringr,
+ggplot2",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+gmodels,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.16.2,NA,R (>= 1.9.0),"MASS, gdata",NA,"gplots, gtools, Matrix, nlme, lme4 (>= 0.999999-0)",NA,GPL-2,NA,NA,NA,NA,no,3.4.4
+gnm,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0-8,NA,R (>= 2.3.0),"MASS, stats, graphics, Matrix, nnet, qvcalc (>= 0.8-3), relimp",NA,vcdExtra,NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,3.4.3
+gower,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.2,NA,NA,NA,NA,"testthat, knitr, rmarkdown",NA,GPL-3,NA,NA,NA,NA,yes,3.4.3
+GPArotation,C:/Users/mmorris/Documents/R/R-3.4.3/library,2014.11-1,NA,R (>= 2.0.0),NA,NA,NA,NA,GPL (>= 2) | file LICENSE,NA,NA,NA,NA,no,3.4.1
+graphics,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.4.3,base,NA,grDevices,NA,NA,NA,Part of R 3.4.3,NA,NA,NA,NA,yes,3.4.3
+grDevices,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.4.3,base,NA,NA,NA,KernSmooth,NA,Part of R 3.4.3,NA,NA,NA,NA,yes,3.4.3
+grid,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.4.3,base,NA,"grDevices, utils",NA,lattice,NA,Part of R 3.4.3,NA,NA,NA,NA,yes,3.4.3
+gridBase,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.4-7,NA,R (>= 2.3.0),"graphics, grid",NA,lattice,NA,GPL,NA,NA,NA,NA,no,3.4.3
+gridExtra,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.3,NA,NA,"gtable, grid, grDevices, graphics, utils",NA,"ggplot2, egg, lattice, knitr, testthat",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+gridGraphics,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3-0,NA,"grid, graphics",grDevices,NA,"magick (>= 1.3), pdftools (>= 1.6)",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.4
+gsl,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.9-10.3,NA,R (>= 2.10.0),NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.1
+gss,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.1-7,NA,"R (>= 2.14.0), stats",NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.1
+gtable,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.2.0,NA,R (>= 2.14),grid,NA,"testthat, covr",NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+gtools,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.5.0,NA,R (>= 2.10),NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,yes,3.4.1
+h2o,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.16.0.2,NA,"R (>= 2.13.0), methods, stats","graphics, tools, utils, RCurl, jsonlite",NA,"ggplot2, mlbench, Matrix, slam, bit64 (>= 0.9.7), data.table
+(>= 1.9.8)",NA,Apache License (== 2.0),NA,NA,NA,NA,no,3.4.3
+haven,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1.2,NA,R (>= 3.1),"forcats (>= 0.2.0), hms, Rcpp (>= 0.11.4), readr (>= 0.1.0),
+tibble",Rcpp,"covr, fs, knitr, rmarkdown, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.4
+here,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1,NA,NA,rprojroot (>= 1.2),NA,NA,NA,GPL-3,NA,NA,NA,NA,no,3.4.4
+hexbin,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.27.2,NA,"R (>= 2.0.1), methods","lattice, grid, graphics, grDevices, stats, utils",NA,"marray, affy, Biobase, limma",NA,GPL-2,NA,NA,NA,NA,yes,3.4.3
+highr,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.6,NA,R (>= 3.0.2),NA,NA,"knitr, testit",NA,GPL,NA,NA,NA,NA,no,3.4.3
+Hmisc,C:/Users/mmorris/Documents/R/R-3.4.3/library,4.1-1,NA,"lattice, survival (>= 2.40-1), Formula, ggplot2 (>= 2.2)","methods, latticeExtra, cluster, rpart, nnet, acepack, foreign,
+gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0),
+viridis, htmltools, base64enc",NA,"chron, rms, mice, tables, knitr, ff, ffbase, plotly (>=
+4.5.6)",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+hms,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.4.2,NA,NA,"methods, pkgconfig, rlang",NA,"crayon, lubridate, pillar (>= 1.1.0), testthat",NA,GPL-3,NA,NA,NA,NA,no,3.4.4
+hoardr,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.2.0,NA,NA,"R6 (>= 2.2.0), rappdirs (>= 0.3.1), digest",NA,"roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+htmlTable,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.11.2,NA,NA,"stringr, knitr (>= 1.6), magrittr (>= 1.5), methods,
+checkmate, htmlwidgets, htmltools, rstudioapi (>= 0.6)",NA,"testthat, XML, xtable, ztable, Hmisc, reshape, rmarkdown,
+pander, chron, lubridate, tibble, tidyr (>= 0.7.2), dplyr (>=
+0.7.4)",NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+htmltools,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3.6,NA,R (>= 2.14.1),"utils, digest, Rcpp",Rcpp,"markdown, testthat",knitr,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+htmlwidgets,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0,NA,NA,"htmltools (>= 0.3), jsonlite (>= 0.9.16), yaml",NA,knitr (>= 1.8),shiny (>= 0.12),MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+httpcode,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.2.0,NA,NA,NA,NA,NA,NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.1
+httpuv,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.3.5,NA,"R (>= 2.15.1), methods","Rcpp (>= 0.11.0), utils",Rcpp,NA,NA,GPL-3 | file LICENSE,NA,NA,NA,NA,yes,3.4.3
+httr,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.3.1,NA,R (>= 3.0.0),"jsonlite, mime, curl (>= 0.9.1), openssl (>= 0.8), R6",NA,"httpuv, jpeg, knitr, png, testthat (>= 0.8.0), readr, xml2,
+rmarkdown, covr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+hunspell,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.9,NA,R (>= 3.0.2),"Rcpp, digest",Rcpp (>= 0.12.12),"spelling, testthat, pdftools, janeaustenr, wordcloud2, knitr,
+rmarkdown",NA,GPL-2 | LGPL-2.1 | MPL-1.1,NA,NA,NA,NA,yes,3.4.3
+igraph,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1.2,NA,methods,"graphics, grDevices, irlba, magrittr, Matrix, pkgconfig (>=
+2.0.0), stats, utils",NA,"ape, graph, igraphdata, NMF, rgl, scales, stats4, tcltk,
+testthat",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+iml,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1,NA,NA,"R6,
+checkmate,
+dplyr,
+tidyr,
+ggplot2,
+partykit,
+glmnet,
+Metrics,
+data.table,
+mlr",NA,"randomForest,
+gower,
+testthat,
+rpart,
+MASS,
+caret,
+e1071,
+lime",NA,MIT + file LICENSE,NA,NA,NA,NA,NA,3.4.3
+infer,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.1,NA,R (>= 3.1.2),"assertive, dplyr (>= 0.7.0), methods, tibble, rlang, ggplot2,
+magrittr",NA,"broom, devtools (>= 1.12.0), knitr, rmarkdown, nycflights13,
+stringr, testthat, covr",NA,CC0,NA,NA,NA,NA,no,3.4.3
+influenceR,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.0,NA,R (>= 3.2.0),"igraph (>= 1.0.1), Matrix (>= 1.1-4), methods, utils",NA,testthat,NA,GPL-2,NA,NA,NA,NA,yes,3.4.3
+ini,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3.1,NA,NA,NA,NA,testthat,NA,GPL-3,NA,NA,NA,NA,no,3.4.4
+inline,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3.14,NA,"R (>= 2.4.0), methods",NA,NA,Rcpp (>= 0.11.0),NA,LGPL,NA,NA,NA,NA,no,3.4.3
+inum,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0-0,NA,R (>= 3.3.0),"stats, libcoin (>= 1.0-0)",NA,NA,NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+ipred,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.9-6,NA,R (>= 2.10),"rpart (>= 3.1-8), MASS, survival, nnet, class, prodlim",NA,"mvtnorm, mlbench, TH.data",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+irlba,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.3.2,NA,Matrix,"stats, methods",Matrix,PMA,NA,GPL-3,NA,NA,NA,NA,yes,3.4.3
+isdparser,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.2.0,NA,NA,"tibble (>= 1.2), data.table (>= 1.10.0)",NA,"roxygen2 (>= 5.0.1), testthat, rmarkdown, knitr, covr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+ISOcodes,C:/Users/mmorris/Documents/R/R-3.4.3/library,2017.09.27,NA,R (>= 2.10.0),NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,no,3.4.1
+iterators,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0.9,NA,"R (>= 2.5.0), utils",NA,NA,RUnit,NA,Apache License (== 2.0),NA,NA,NA,NA,no,3.4.3
+janeaustenr,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.5,NA,R (>= 3.1.2),NA,NA,"dplyr, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+janitor,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3.1,NA,R (>= 3.1.2),"dplyr (>= 0.5.0), tidyr, magrittr",NA,"testthat, knitr, rmarkdown",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+jcolors,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0.2,NA,R (>= 3.0.2),"grDevices, scales, ggplot2 (>= 2.2.0)",NA,"knitr, rmarkdown, gridExtra",NA,GPL-2,NA,NA,NA,NA,no,3.4.4
+jmv,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.8.1.16,NA,R (>= 3.2),"jmvcore (>= 0.8.1.4), R6, car, multcomp, ggplot2 (>= 2.2.1),
+PMCMR, emmeans, vcd, vcdExtra, GGally, BayesFactor, psych (>=
+1.7.5), GPArotation, afex, mvnormtest, lavaan, ggridges",NA,"exact2x2, testthat, semPlot",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+jmvcore,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.8.1.6,NA,R (>= 3.2),"R6 (>= 1.0.1), rjson, base64enc",NA,"testthat (>= 1.0.2), RProtoBuf, knitr, ggplot2",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+jpeg,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1-8,NA,R (>= 2.9.0),NA,NA,NA,NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,3.4.1
+jsonlite,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.5,NA,methods,NA,NA,"httr, curl, plyr, testthat, knitr, rmarkdown, R.rsp, sp",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+kableExtra,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.7.0,NA,R (>= 3.1.0),"knitr (>= 1.16), magrittr, stringr (>= 1.0), xml2, rvest,
+rmarkdown (>= 1.6.0), readr, scales, viridisLite, stats,
+grDevices, htmltools",NA,"testthat, magick, formattable, dplyr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+kernlab,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.9-25,NA,R (>= 2.10),"methods, stats, grDevices, graphics",NA,NA,NA,GPL-2,NA,NA,NA,NA,yes,3.4.1
+KernSmooth,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.23-15,recommended,"R (>= 2.5.0), stats",NA,NA,MASS,NA,Unlimited,NA,NA,NA,NA,yes,3.4.3
+knitr,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.20,NA,R (>= 3.1.0),"evaluate (>= 0.10), highr, markdown, stringr (>= 0.6), yaml,
+methods, tools",NA,"formatR, testit, digest, rgl (>= 0.95.1201), codetools,
+rmarkdown, htmlwidgets (>= 0.7), webshot, tikzDevice (>= 0.10),
+tinytex, xfun, reticulate (>= 1.4), JuliaCall (>= 0.11.1), png,
+jpeg, xml2, httr, DBI (>= 0.4-1), showtext, tibble",NA,GPL,NA,NA,NA,NA,no,3.4.3
+labeling,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3,NA,NA,NA,NA,NA,NA,MIT + file LICENSE | Unlimited,NA,NA,NA,NA,no,3.4.1
+lattice,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.20-35,recommended,R (>= 3.0.0),"grid, grDevices, graphics, stats, utils",NA,"KernSmooth, MASS, latticeExtra",chron,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+latticeExtra,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.6-28,NA,"R (>= 2.10.0), lattice, RColorBrewer","grid, stats, utils, grDevices",NA,"maps, mapproj, deldir, tripack, zoo, MASS, quantreg, mgcv",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+lava,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.6,NA,R (>= 3.0),"grDevices, graphics, methods, numDeriv, stats, survival,
+SQUAREM, utils",NA,"KernSmooth, Matrix, Rgraphviz, ascii, data.table, ellipse,
+fields, foreach, geepack, gof (>= 0.9), graph, igraph (>= 0.6),
+lava.tobit, lme4, mets (>= 1.1), optimx, quantreg, rgl,
+testthat (>= 0.11), visNetwork, zoo",NA,GPL-3,NA,NA,NA,NA,no,3.4.3
+lavaan,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.5-23.1097,NA,R(>= 3.1.0),"methods, stats4, stats, utils, graphics, MASS, mnormt,
+pbivnorm, quadprog, numDeriv",NA,testthat,NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+lazyeval,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.2.1,NA,R (>= 3.1.0),NA,NA,"knitr, rmarkdown (>= 0.2.65), testthat, covr",NA,GPL-3,NA,NA,NA,NA,yes,3.4.3
+leaflet,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1.0,NA,R (>= 3.1.0),"base64enc, crosstalk, htmlwidgets, htmltools, magrittr,
+markdown, methods, png, RColorBrewer, raster, scales (>=
+0.2.5), sp, stats, viridis",NA,"knitr, maps, sf, shiny, testit (>= 0.4), rgdal, rgeos, R6,
+RJSONIO, purrr, testthat",NA,GPL-3,NA,NA,NA,NA,no,3.4.3
+leaps,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.0,NA,,NA,NA,biglm,NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+lfe,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.5-1998,NA,"R (>= 2.15.2), Matrix (>= 1.1-2)","Formula, xtable, compiler, utils, methods, sandwich",NA,"knitr, igraph, plm, R2Cuba, numDeriv",NA,Artistic-2.0,NA,NA,NA,NA,yes,3.4.3
+libcoin,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0-1,NA,R (>= 3.4.0),"stats, mvtnorm",mvtnorm,coin,NA,GPL-2,NA,NA,NA,NA,yes,3.4.3
+likert,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.3.5,NA,"R (>= 3.0),ggplot2,xtable","psych,reshape2,gridExtra,grid,plyr",NA,"devtools,shiny",NA,GPL,NA,NA,NA,NA,no,3.4.4
+listenv,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.7.0,NA,R (>= 3.1.2),NA,NA,"R.utils, R.rsp, markdown",NA,LGPL (>= 2.1),NA,NA,NA,NA,no,3.4.3
+lme4,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1-15,NA,"R (>= 3.0.2), Matrix (>= 1.1.1), methods, stats","graphics, grid, splines, utils, parallel, MASS, lattice, nlme
+(>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)","Rcpp (>= 0.10.5), RcppEigen","knitr, boot, PKPDmodels, MEMSS, testthat (>= 0.8.1), ggplot2,
+mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR2, numDeriv",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+lmerTest,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.0-36,NA,"R (>= 3.0.0), Matrix, stats, methods, lme4 (>= 1.0)","plyr, MASS, Hmisc, ggplot2",NA,"pbkrtest, nlme, estimability",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+lmtest,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.9-35,NA,"R (>= 2.10.0), stats, zoo",graphics,NA,"car, strucchange, sandwich, dynlm, stats4, survival, AER",NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,3.4.3
+loo,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1.0,NA,R (>= 3.1.2),"graphics, matrixStats (>= 0.50.0), parallel, stats",NA,"knitr, rmarkdown, rstan, rstanarm, testthat",NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+lpSolve,C:/Users/mmorris/Documents/R/R-3.4.3/library,5.6.13,NA,NA,NA,NA,NA,NA,LGPL-2,NA,NA,NA,NA,yes,3.4.1
+lubridate,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.7.1,NA,"methods, R (>= 3.0.0)","stringr, Rcpp (>= 0.11),","Rcpp,","testthat, knitr, covr","chron, fts, timeSeries, timeDate, tis, tseries, xts, zoo",GPL-2,NA,NA,NA,NA,yes,3.4.3
+magick,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.9,NA,NA,"Rcpp (>= 0.12.12), magrittr, knitr, curl",Rcpp,"spelling, jsonlite, methods, rmarkdown, rsvg, webp, png,
+pdftools, ggplot2, raster, rgdal, gapminder, IRdisplay,
+tesseract (>= 2.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.4
+magrittr,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.5,NA,NA,NA,NA,"testthat, knitr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+manipulate,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0.1,NA,R (>= 2.11.1),NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,no,3.4.1
+mapproj,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.2-5,NA,maps (>= 2.3-0),"stats, graphics",NA,NA,NA,Lucent Public License,NA,NA,NA,NA,yes,3.4.3
+maps,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.2.0,NA,R (>= 2.14.0),"graphics, utils",NA,"mapproj (>= 1.2-0), mapdata (>= 2.2-4), sp, maptools",NA,GPL-2,NA,NA,NA,NA,yes,3.4.3
+maptools,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.9-2,NA,"R (>= 2.10), sp (>= 1.0-11)","foreign (>= 0.8), methods, grid, lattice, stats, utils,
+grDevices",NA,"rgeos (>= 0.1-8), spatstat (>= 1.18), PBSmapping, maps,
+RColorBrewer, raster, polyclip, spatstat.utils","gpclib, RArcInfo",GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+markdown,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.8,NA,R (>= 2.11.1),"utils, mime (>= 0.3)",NA,"knitr, RCurl",NA,GPL-2,NA,NA,NA,NA,yes,3.4.3
+MASS,C:/Users/mmorris/Documents/R/R-3.4.3/library,7.3-47,recommended,"R (>= 3.1.0), grDevices, graphics, stats, utils",methods,NA,"lattice, nlme, nnet, survival",NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,3.4.3
+Matrix,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.2-12,recommended,R (>= 3.0.1),"methods, graphics, grid, stats, utils, lattice",NA,"expm, MASS","MatrixModels, graph, SparseM, sfsmisc",GPL (>= 2) | file LICENCE,NA,NA,NA,NA,yes,3.4.3
+matrixcalc,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0-3,NA,R (>= 2.0.1),NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,NA,3.4.1
+MatrixModels,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.4-1,NA,R (>= 3.0.1),"stats, methods, Matrix (>= 1.1-5)",NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+matrixStats,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.53.0,NA,R (>= 2.12.0),NA,NA,"base64enc, ggplot2, knitr, microbenchmark, R.devices, R.rsp",NA,Artistic-2.0,NA,NA,NA,NA,yes,3.4.3
+MBESS,C:/Users/mmorris/Documents/R/R-3.4.3/library,4.4.3,NA,"R (>= 3.2.0), stats","boot, gsl, lavaan, MASS, methods, mnormt, nlme, OpenMx,
+parallel, sem, semTools",NA,NA,NA,GPL-2 | GPL-3,NA,NA,NA,NA,no,3.4.3
+mc2d,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1-18,NA,"R (>= 2.10.0), mvtnorm","stats, grDevices, graphics, utils",NA,"fitdistrplus, survival",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+mclust,C:/Users/mmorris/Documents/R/R-3.4.3/library,5.4,NA,R (>= 3.0),"stats, utils, graphics, grDevices",NA,"knitr (>= 1.12), rmarkdown (>= 0.9), mix (>= 1.0), geometry
+(>= 0.3-6), MASS",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+memoise,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1.0,NA,NA,digest (>= 0.6.3),NA,"testthat, aws.s3, httr, covr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+merTools,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3.0,NA,"R (>= 3.0.2), arm, lme4 (>= 1.1-11), methods, dplyr","mvtnorm, DT, shiny, abind, ggplot2, blme, broom",NA,"testthat, knitr, rmarkdown, foreach, parallel, rstanarm",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.4
+methods,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.4.3,base,NA,"utils, stats",NA,codetools,NA,Part of R 3.4.3,NA,NA,NA,NA,yes,3.4.3
+Metrics,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.3,NA,NA,NA,NA,testthat,NA,BSD_3_clause + file LICENSE,NA,NA,NA,NA,no,3.4.3
+mgcv,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.8-23,recommended,"R (>= 2.14.0), nlme (>= 3.1-64)","methods, stats, graphics, Matrix",NA,"splines, parallel, survival, MASS",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+mi,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0,NA,"R (>= 3.0.0), methods, Matrix, stats4",arm (>= 1.4-11),NA,"betareg, lattice, knitr, MASS, nnet, parallel, sn, survival,
+truncnorm, foreign",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+mice,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.46.0,NA,"methods, R (>= 2.10.0), lattice","grDevices, graphics, MASS, nnet, rpart, splines, stats,
+survival, utils, Rcpp",Rcpp,"AGD, CALIBERrfimpute, gamlss, lme4, mitools, nlme, pan,
+randomForest, Zelig, BSDA, knitr, rmarkdown, testthat",NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,3.4.4
+microbenchmark,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.4-4,NA,NA,"graphics, stats",NA,"ggplot2, multcomp",NA,BSD_2_clause + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+mime,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.5,NA,NA,tools,NA,NA,NA,GPL,NA,NA,NA,NA,yes,3.4.1
+miniUI,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.1,NA,NA,"shiny (>= 0.13), htmltools (>= 0.3), utils",NA,NA,NA,GPL-3,NA,NA,NA,NA,no,3.4.3
+minpack.lm,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.2-1,NA,NA,NA,NA,MASS,NA,GPL-3,NA,NA,NA,NA,yes,3.4.3
+minqa,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.2.4,NA,NA,Rcpp (>= 0.9.10),Rcpp,NA,NA,GPL-2,NA,NA,NA,NA,yes,3.4.3
+miscTools,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.6-22,NA,R (>= 2.14.0),NA,NA,Ecdat (>= 0.1-5),NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+mixOmics,C:/Users/mmorris/Documents/R/R-3.4.3/library,6.3.1,NA,"R (>= 2.10), MASS, lattice, ggplot2","igraph, rgl, ellipse, corpcor, RColorBrewer, plyr,parallel,
+dplyr, tidyr, reshape2, methods, matrixStats, rARPACK,
+gridExtra",NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+mlr,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.11,NA,"R (>= 3.0.2), ParamHelpers (>= 1.10)","BBmisc (>= 1.11), backports, ggplot2, stats, stringi,
+checkmate (>= 1.8.2), data.table, methods, parallelMap (>=
+1.3), survival, utils",NA,"ada, adabag, bartMachine, batchtools, brnn, bst, C50, care,
+caret (>= 6.0-57), class, clue, cluster, clusterSim (>=
+0.44-5), clValid, cmaes, CoxBoost, crs, Cubist, deepnet,
+DiceKriging, DiceOptim, DiscriMiner, e1071, earth, elasticnet,
+elmNN, emoa, evtree, extraTrees, flare, fields, FNN, fpc, frbs,
+FSelector, gbm, GenSA, ggvis, glmnet, h2o (>= 3.6.0.8), GPfit,
+Hmisc, ipred, irace (>= 2.0), kernlab, kknn, klaR, knitr,
+kohonen, laGP, LiblineaR, lqa, MASS, mboost, mco, mda, mlbench,
+mldr, mlrMBO, modeltools, mRMRe, nnet, nodeHarvest (>= 0.7-3),
+neuralnet, numDeriv, pamr, party, penalized (>= 0.9-47), pls,
+PMCMR (>= 4.1), pROC (>= 1.8), randomForest, randomForestSRC
+(>= 2.2.0), ranger (>= 0.6.0), RCurl, Rfast, rFerns, rjson,
+rknn, rmarkdown, robustbase, ROCR, rotationForest, rpart, RRF,
+rrlda, rsm, RSNNS, RWeka, sda, shiny, smoof, sparsediscrim,
+sparseLDA, stepPlr, SwarmSVM, svglite, testthat, tgp, TH.data,
+xgboost (>= 0.6-2), XML",NA,BSD_2_clause + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+mnormt,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.5-5,NA,R (>= 2.2.0),NA,NA,NA,NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,3.4.1
+ModelMetrics,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1.0,NA,R (>= 3.2.2),Rcpp,Rcpp,testthat,NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+modelr,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.1,NA,R (>= 3.1.0),"magrittr, purrr (>= 0.2.2), lazyeval (>= 0.2.0), tibble,
+broom, dplyr, tidyr (>= 0.6.0)",NA,"testthat, ggplot2, covr, compiler",NA,GPL-3,NA,NA,NA,NA,no,3.4.3
+modeltools,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.2-21,NA,"stats, stats4",methods,NA,NA,NA,GPL-2,NA,NA,NA,NA,no,3.4.1
+mstR,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.2,NA,R (>= 2.8.0),NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.4
+multcomp,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.4-8,NA,"stats, graphics, mvtnorm (>= 1.0-3), survival (>= 2.39-4),
+TH.data (>= 1.0-2)","sandwich (>= 2.3-0), codetools",NA,"lme4 (>= 0.999375-16), nlme, robustbase, coin, MASS, car,
+foreign, xtable, lmtest, coxme (>= 2.2-1), SimComp, ISwR",NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+multcompView,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1-7,NA,NA,grid,NA,"multcomp, pgirmess, MASS",NA,GPL,NA,NA,NA,NA,no,3.4.3
+munsell,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.4.3,NA,NA,"colorspace, methods",NA,"ggplot2, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+mvnormtest,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1-9,NA,stats,NA,NA,NA,NA,GPL,NA,NA,NA,NA,NA,3.4.1
+mvtnorm,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0-7,NA,R(>= 1.9.0),"stats, methods",NA,NA,NA,GPL-2,NA,NA,NA,NA,yes,3.4.3
+NbClust,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.0,NA,R (>= 3.1.0),NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,no,3.4.1
+network,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.13.0,NA,"R (>= 2.10), utils",NA,NA,"sna, statnet.common, testthat",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+nleqslv,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.3.1,NA,NA,NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.1
+nlme,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.1-131,recommended,R (>= 3.0.2),"graphics, stats, utils, lattice",NA,"Hmisc, MASS",NA,GPL (>= 2) | file LICENCE,NA,NA,NA,NA,yes,3.4.3
+nloptr,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0.4,NA,NA,NA,NA,testthat (>= 0.8.1),NA,LGPL-3,NA,NA,NA,NA,yes,3.4.3
+NLP,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1-11,NA,R (>= 3.2.0),utils,NA,NA,NA,GPL-3,NA,NA,NA,NA,no,3.4.1
+NMF,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.20.6,NA,"R (>= 3.0.0), methods, utils, pkgmaker (>= 0.20), registry,
+rngtools (>= 1.2.3), cluster","graphics, stats, stringr (>= 1.0.0), digest, grid, grDevices,
+gridBase, colorspace, RColorBrewer, foreach, doParallel,
+ggplot2, reshape2",NA,"RcppOctave (>= 0.11), fastICA, doMPI, bigmemory (>= 4.2),
+synchronicity, corpcor, xtable, devtools, knitr, bibtex, RUnit,
+mail, Biobase",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+nnet,C:/Users/mmorris/Documents/R/R-3.4.3/library,7.3-12,recommended,"R (>= 2.14.0), stats, utils",NA,NA,MASS,NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,3.4.3
+nortest,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0-4,NA,NA,stats,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.1
+numDeriv,C:/Users/mmorris/Documents/R/R-3.4.3/library,2016.8-1,NA,R (>= 2.11.1),NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,no,3.4.1
+odbc,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1.5,NA,R (>= 3.2.0),"DBI (>= 0.3.0), methods, Rcpp (>= 0.12.11), blob (>= 1.1.0),
+bit64, hms","Rcpp, BH","tibble, DBItest, testthat, covr, magrittr",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+officer,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3.1,NA,NA,"Rcpp (>= 0.12.12), R6, grDevices, base64enc, zip,
+digest,uuid,utils,stats, magrittr,htmltools, xml2 (>= 1.1.0)",Rcpp,"testthat, devEMF, knitr,tibble,ggplot2, rmarkdown",NA,GPL-3,NA,NA,NA,NA,yes,3.4.4
+oompaBase,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.2.6,NA,R (>= 3.0),"methods, graphics, grDevices, stats, cluster",NA,NA,NA,Apache License (== 2.0),NA,NA,NA,NA,no,3.4.4
+OpenML,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.8,NA,"R (>= 3.0.2), mlr (>= 2.11)","backports (>= 1.1.0), BBmisc (>= 1.11), checkmate (>= 1.8.2),
+ParamHelpers (>= 1.10), data.table, digest, httr, stringi, XML,
+jsonlite, memoise (>= 1.0.0), stats, curl (>= 3.1)",NA,"testthat, xml2, randomForest, rpart, RWeka, farff, knitr,
+rmarkdown, R.rsp, lintr (>= 1.0.1)",NA,BSD_3_clause + file LICENSE,NA,NA,NA,NA,no,3.4.4
+OpenMx,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.8.3,NA,R (>= 3.1.0),"Rcpp, digest, MASS, methods, Matrix, parallel","Rcpp, RcppEigen, StanHeaders (>= 2.10.0.2), BH (>= 1.60),
+rpf (>= 0.45)","mvtnorm, numDeriv, roxygen2 (>= 3.1), devtools, Rmpi, rpf (>=
+0.45), snowfall, lme4",NA,Apache License (== 2.0),NA,NA,NA,NA,yes,3.4.3
+openNLP,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.2-6,NA,NA,"NLP (>= 0.1-6.3), openNLPdata (>= 1.5.3-1), rJava (>= 0.6-3)",NA,openNLPmodels.en,NA,GPL-3,NA,NA,NA,NA,no,3.4.3
+openNLPdata,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.5.3-4,NA,NA,rJava (>= 0.6-3),NA,NA,NA,GPL-3,NA,NA,NA,NA,no,3.4.3
+openssl,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.9.9,NA,NA,NA,NA,"testthat, digest, knitr, rmarkdown, jsonlite, jose",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+openxlsx,C:/Users/mmorris/Documents/R/R-3.4.3/library,4.0.17,NA,R (>= 3.3.0),"methods, Rcpp, grDevices, stats, utils",Rcpp,"knitr, testthat",NA,GPL-3,NA,NA,NA,NA,yes,3.4.3
+ordinal,C:/Users/mmorris/Documents/R/R-3.4.3/library,2015.6-28,NA,"R (>= 2.13.0), methods","ucminf, MASS, Matrix",NA,"lme4, nnet, xtable, testthat (>= 0.8)",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+ordinalNet,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.4,NA,NA,"stats, graphics",NA,"testthat (>= 1.0.2), MASS (>= 7.3-45), glmnet (>= 2.0-5),
+penalized (>= 0.9-50), glmnetcr (>= 1.0.3), VGAM (>= 1.0-3),
+rms (>= 5.1-0)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+packagefinder,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0.7,NA,NA,"httr, utils, jsonlite, pander, formattable, stringr, tools",NA,NA,NA,GPL-3,NA,NA,NA,NA,no,3.4.4
+packrat,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.4.8-1,NA,R (>= 3.0.0),"tools, utils",NA,"testthat (>= 0.7), devtools, httr, knitr, rmarkdown",BiocInstaller,GPL-2,NA,NA,NA,NA,no,3.4.3
+pacman,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.4.6,NA,R (>= 3.0.2),"devtools (>= 1.13.0), methods, stats, utils",NA,"knitr, lattice, testthat (>= 0.9.0), XML",NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+paletteer,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.0,NA,R (>= 2.10),"ggthemes,
+jcolors,
+oompaBase,
+palr,
+pals,
+scico,
+viridisLite,
+rlang",NA,"covr,
+testthat,
+ggplot2,
+knitr,
+rmarkdown",NA,GPL-3,NA,NA,NA,NA,NA,3.4.3
+palr,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0.6,NA,R (>= 2.10),NA,NA,"knitr, raster, rmarkdown, testthat, covr",NA,GPL-3,NA,NA,NA,NA,no,3.4.4
+pals,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.5,NA,"R (>= 2.10), maps,","dichromat, colorspace, graphics, grDevices, mapproj, methods,
+rgl, stats",NA,"classInt, ggplot2, knitr, latticeExtra, reshape2, testthat",NA,GPL-3,NA,NA,NA,NA,no,3.4.4
+pander,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.6.1,NA,R (>= 2.15.0),"grDevices, graphics, methods, utils, stats, digest, tools,
+Rcpp",Rcpp,"grid, lattice, ggplot2 (>= 0.9.2), koRpus, futile.logger,
+survival, microbenchmark, zoo, nlme, descr, MASS, knitr,
+rmarkdown, tables, reshape, memisc, Epi, randomForest, tseries,
+gtable, rms, forecast, data.table",NA,AGPL-3 | file LICENSE,NA,NA,NA,NA,yes,3.4.3
+papaja,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.0.9842,NA,R (>= 2.11.1),"base64enc,
+bookdown (>= 0.6),
+broom (>= 0.3.6),
+knitr (>= 1.10.5),
+methods,
+rmarkdown (>= 1.10),
+yaml",NA,"afex,
+BayesFactor,
+beeswarm,
+boot,
+car,
+carData,
+downloader,
+dplyr,
+emmeans,
+ggplot2,
+latex2exp,
+lsmeans,
+MBESS,
+multcomp,
+testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,NA,3.4.3
+papeR,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0-2,NA,"car, xtable","utils, gmodels, graphics, stats",NA,"nlme, knitr, testthat (>= 0.10.0), foreign","lme4, survival",GPL-2,NA,NA,NA,NA,no,3.4.4
+parallel,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.4.3,base,NA,"tools, compiler",NA,methods,"snow, nws, Rmpi",Part of R 3.4.3,NA,NA,NA,NA,yes,3.4.3
+parallelMap,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.3,NA,R (>= 3.0.0),"BBmisc (>= 1.8), checkmate (>= 1.5.1), parallel",NA,"testthat, Rmpi, BatchJobs (>= 1.5)",NA,BSD_2_clause + file LICENSE,NA,NA,NA,NA,no,3.4.3
+ParamHelpers,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.10,NA,NA,"BBmisc (>= 1.10), checkmate (>= 1.8.1), methods",NA,"akima, eaf, emoa, GGally, ggplot2, gridExtra, grid, irace (>=
+2.1), lhs, plyr, reshape2, testthat",NA,BSD_2_clause + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+partykit,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.2-0,NA,"R (>= 3.1.0), graphics, grid, libcoin (>= 1.0-0), mvtnorm,
+rpart (>= 4.1-11)","grDevices, stats, utils, survival, Formula (>= 1.2-1), inum
+(>= 1.0-0)",NA,"XML, pmml, rJava, sandwich, strucchange, vcd, AER, mlbench,
+TH.data (>= 1.0-3), coin (>= 1.1-0), RWeka (>= 0.4-19),
+datasets, parallel, psychotools, psychotree, party",NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,3.4.3
+pastecs,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.3-18,NA,"boot, stats",NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+patchwork,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0.1,NA,NA,"ggplot2 (>= 3.0.0),
+gtable,
+grid,
+stats,
+grDevices,
+utils",NA,NA,NA,MIT + file LICENSE,NA,NA,NA,NA,NA,3.4.3
+pbapply,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.3-4,NA,R (>= 3.2.0),parallel,NA,NA,NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+pbivnorm,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.6.0,NA,NA,NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.1
+pbkrtest,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.4-7,NA,"R (>= 3.2.3), lme4 (>= 1.1.10)","Matrix (>= 1.2.3), parallel, MASS, methods",NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+permute,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.9-4,NA,R (>= 2.14.0),stats,NA,"vegan (>= 2.0-0), testthat (>= 0.5), parallel",NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+phrasemachine,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1.2,NA,NA,"NLP, openNLP, stringr",NA,"testthat, knitr, rmarkdown, quanteda",NA,GPL-3,NA,NA,NA,NA,no,3.4.3
+pillar,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1.0,NA,NA,"cli, crayon (>= 1.3.4), methods, rlang, utf8 (>= 1.1.3)",NA,"knitr, testthat (>= 2.0.0)",NA,GPL-3,NA,NA,NA,NA,no,3.4.3
+pipeliner,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.1.900,NA,NA,NA,NA,"knitr,
+testthat,
+rmarkdown,
+modelr,
+tidyverse",NA,Apache License 2.0,NA,NA,NA,NA,NA,3.4.3
+pkgbuild,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0.0,NA,R (>= 3.1),"callr (>= 2.0.0),
+crayon,
+desc,
+R6,
+rprojroot,
+withr (>= 2.1.2)",NA,"Rcpp,
+testthat,
+covr",NA,GPL-3,NA,NA,NA,NA,NA,3.4.3
+pkgconfig,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.0.1,NA,NA,utils,NA,"covr, testthat, disposables (>= 1.0.3)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+pkgload,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0.0,NA,NA,"desc,
+methods,
+pkgbuild,
+rlang,
+rprojroot,
+rstudioapi,
+utils,
+withr",NA,"bitops,
+covr,
+Rcpp,
+testthat",NA,GPL-3,NA,NA,NA,NA,NA,3.4.3
+pkgmaker,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.22,NA,"R (>= 3.0.0), stats, registry","methods, tools, codetools, digest, stringr, xtable, grDevices",NA,"devtools (>= 0.8), bibtex, RUnit, testthat, knitr,
+ReportingTools, hwriter, argparse",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+PKI,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1-5.1,NA,"R (>= 2.9.0), base64enc",NA,NA,NA,gmp,GPL-2 | GPL-3 | file LICENSE,NA,NA,NA,NA,yes,3.4.1
+plogr,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1-1,NA,NA,NA,NA,Rcpp,NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+plotrix,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.7,NA,NA,"grDevices, graphics, stats, utils",NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+pls,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.6-0,NA,R (>= 2.10),"grDevices, graphics, methods, stats",NA,"MASS, parallel, Rmpi",NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+plyr,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.8.4,NA,R (>= 3.1.0),Rcpp (>= 0.11.0),Rcpp,"abind, testthat, tcltk, foreach, doParallel, itertools,
+iterators, covr",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+PMCMR,C:/Users/mmorris/Documents/R/R-3.4.3/library,4.2,NA,"R (>= 3.0.0), stats, base",NA,NA,"multcompView, xtable, graphics",NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+png,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1-7,NA,R (>= 2.9.0),NA,NA,NA,NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,3.4.1
+polyreg,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0.0.9000,NA,regtools,NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,NA,3.4.3
+prabclus,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.2-6,NA,"R (>= 2.10), MASS, mclust",NA,NA,"spdep, maptools, foreign, mvtnorm",NA,GPL,NA,NA,NA,NA,no,3.4.3
+praise,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0.0,NA,NA,NA,NA,testthat,NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+prediction,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.2.0,NA,NA,"utils, stats",NA,"datasets, methods, testthat","AER, betareg, brglm, crch, e1071, gam, gee, glmx, lme4, MASS,
+mclogit, mlogit, mnlogit, MNP, nlme, nnet, ordinal, plm, pscl,
+quantreg, sampleSelection, survey (>= 3.31-5), survival, VGAM",MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+prettyunits,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0.2,NA,NA,"magrittr, assertthat, methods",NA,testthat,NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+prodlim,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.6.1,NA,R (>= 2.9.0),"Rcpp (>= 0.11.5), stats, graphics, survival, KernSmooth, lava",Rcpp,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+profvis,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3.4,NA,R (>= 3.0),"htmlwidgets (>= 0.3.2), stringr",NA,"knitr, ggplot2, rmarkdown, testthat, devtools",NA,GPL-3 | file LICENSE,NA,NA,NA,NA,yes,3.4.3
+progress,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.2.0,NA,NA,"hms, prettyunits, R6, crayon",NA,"Rcpp, testthat, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.4
+proto,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0.0,NA,NA,NA,NA,"testthat, covr",NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+proxy,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.4-21,NA,R (>= 3.4.0),"stats, utils",NA,cba,NA,GPL-2,NA,NA,NA,NA,yes,3.4.3
+pryr,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.4,NA,R (>= 3.1.0),"stringr, codetools, methods, Rcpp (>= 0.11.0)",Rcpp,testthat (>= 0.8.0),NA,GPL-2,NA,NA,NA,NA,yes,3.4.4
+pspearman,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3-0,NA,NA,NA,NA,NA,NA,GPL-3,NA,NA,NA,NA,yes,3.4.1
+psych,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.7.8,NA,R (>= 2.10),"mnormt,parallel,stats,graphics,grDevices,methods,foreign,lattice,nlme",NA,"GPArotation, lavaan, sem, lme4,Rcsdp, graph, Rgraphviz",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+purrr,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.2.4,NA,R (>= 3.1),"magrittr (>= 1.5), rlang (>= 0.1), tibble",NA,"covr, dplyr (>= 0.4.3), knitr, rmarkdown, testthat",NA,GPL-3 | file LICENSE,NA,NA,NA,NA,yes,3.4.3
+pwr,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.2-2,NA,NA,"stats, graphics",NA,"ggplot2, scales, knitr, rmarkdown",NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+qdap,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.2.9,NA,"R (>= 3.1.0), qdapDictionaries (>= 1.0.2), qdapRegex (>=
+0.1.2), qdapTools (>= 1.3.1), RColorBrewer","chron, dplyr (>= 0.3), gdata, gender (>= 0.5.1), ggplot2 (>=
+2.1.0), grid, gridExtra, igraph, methods, NLP, openNLP (>=
+0.2-1), parallel, plotrix, RCurl, reports, reshape2, scales,
+stringdist, tidyr, tm (>= 0.7.2), tools, venneuler, wordcloud,
+xlsx, XML",NA,"koRpus, knitr, lda, proxy, stringi, SnowballC, testthat",NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+qdapDictionaries,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0.6,NA,R (>= 3.0.0),NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,no,3.4.1
+qdapRegex,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.7.2,NA,R (>= 3.1.0),stringi (>= 0.5-5),NA,testthat,NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+qdapTools,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.3.3,NA,R (>= 3.0.0),"chron, data.table (>= 1.9.6), methods, RCurl, XML",NA,testthat,NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+quadprog,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.5-5,NA,R (>= 2.15.0),NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.1
+quanteda,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.99.22,NA,"R (>= 3.4.0), methods","utils, stats, Matrix (>= 1.2), data.table (>= 1.9.6),
+SnowballC, wordcloud, Rcpp (>= 0.12.12), RcppParallel,
+RSpectra, stringi, fastmatch, ggplot2 (>= 2.2.0), XML, yaml,
+lubridate, magrittr, spacyr","Rcpp, RcppParallel, RcppArmadillo (>= 0.7.600.1.0)","knitr, rmarkdown, lda, proxy, topicmodels, tm (>= 0.6), slam,
+testthat, RColorBrewer, xtable, DT, ca, purrr",NA,GPL-3,NA,NA,NA,NA,yes,3.4.3
+quantreg,C:/Users/mmorris/Documents/R/R-3.4.3/library,5.34,NA,"R (>= 2.6), stats, SparseM","methods, graphics, Matrix, MatrixModels",NA,"tripack, akima, MASS, survival, rgl, logspline, nor1mix,
+Formula, zoo",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+qvcalc,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.9-1,NA,NA,NA,NA,"relimp, MASS",psychotools,GPL-2 | GPL-3,NA,NA,NA,NA,no,3.4.3
+R.methodsS3,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.7.1,NA,R (>= 2.13.0),utils,NA,NA,NA,LGPL (>= 2.1),NA,NA,NA,NA,no,3.4.1
+R.oo,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.21.0,NA,"R (>= 2.13.0), R.methodsS3 (>= 1.7.1)","methods, utils",NA,tools,NA,LGPL (>= 2.1),NA,NA,NA,NA,no,3.4.1
+R.utils,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.6.0,NA,"R (>= 2.14.0), R.oo (>= 1.21.0)","methods, utils, tools, R.methodsS3 (>= 1.7.1)",NA,digest (>= 0.6.10),NA,LGPL (>= 2.1),NA,NA,NA,NA,no,3.4.4
+R6,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.2.2,NA,R (>= 3.0),NA,NA,"knitr, microbenchmark, pryr, testthat, ggplot2, scales",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+randomForest,C:/Users/mmorris/Documents/R/R-3.4.3/library,4.6-12,NA,"R (>= 2.5.0), stats",NA,NA,"RColorBrewer, MASS",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+RApiDatetime,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0.3,NA,NA,NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.1
+rappdirs,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3.1,NA,"R (>= 2.14), methods",NA,NA,"testthat, roxygen2",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+rapportools,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0,NA,reshape,"plyr, pander",NA,NA,NA,AGPL-3,NA,NA,NA,NA,no,3.4.4
+rARPACK,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.11-0,NA,NA,RSpectra,NA,Matrix (>= 1.1-0),NA,BSD_3_clause + file LICENSE,NA,NA,NA,NA,no,3.4.3
+raster,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.6-7,NA,"methods, sp (>= 1.2-0), R (>= 3.0.0)",Rcpp,Rcpp,"rgdal (>= 0.9-1), rgeos (>= 0.3-8), ncdf4, igraph, tcltk,
+parallel, rasterVis, MASS, sf",NA,GPL (>= 3),NA,NA,NA,NA,yes,3.4.3
+rAzureBatch,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.5.5,NA,NA,"httr (>= 1.2.1),
+rjson (>= 0.2.15),
+RCurl (>= 1.95-4.8),
+digest (>=  0.6.9),
+jsonlite,
+methods",NA,testthat,NA,MIT + file LICENSE,NA,NA,NA,NA,NA,3.4.3
+Rcmdr,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.4-1,NA,"R (>= 3.2.0), grDevices, graphics, methods, stats, utils,
+splines, RcmdrMisc (>= 1.0-6), car (>= 2.1-3), effects (>=
+3.0-1)","tcltk, tcltk2 (>= 1.2-6), abind, relimp (>= 1.0-5)",NA,"aplpack, boot, colorspace, e1071, foreign, grid, Hmisc,
+knitr, lattice, leaps, lmtest, markdown, MASS, mgcv, multcomp
+(>= 0.991-2), nlme, nnet, nortest, readxl, rgl (>= 0.96.0),
+rmarkdown (>= 0.9.5), sem (>= 2.1-1)",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+RcmdrMisc,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0-7,NA,"R (>= 3.0.0), utils, car, sandwich","abind, colorspace, Hmisc (>= 4.1-0), MASS, e1071, foreign,
+haven, readstata13, readxl, graphics, grDevices, stats, nortest",NA,"boot, datasets",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+RColorBrewer,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1-2,NA,R (>= 2.0.0),NA,NA,NA,NA,Apache License 2.0,NA,NA,NA,NA,no,3.4.1
+Rcpp,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.12.18,NA,R (>= 3.0.0),"methods, utils",NA,"RUnit, inline, rbenchmark, knitr, rmarkdown, pinp, pkgKitten
+(>= 0.1.2)",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.4
+RcppArmadillo,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.8.300.1.0,NA,NA,"Rcpp (>= 0.11.0), stats, utils, methods",Rcpp,"RUnit, Matrix, pkgKitten, reticulate, rmarkdown, knitr, pinp",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+RcppEigen,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3.3.3.1,NA,R (>= 2.15.1),"Matrix (>= 1.1-0), Rcpp (>= 0.11.0), stats, utils",Rcpp,"inline, RUnit, pkgKitten",NA,GPL (>= 2) | file LICENSE,NA,NA,NA,NA,yes,3.4.3
+RcppParallel,C:/Users/mmorris/Documents/R/R-3.4.3/library,4.3.20,NA,R (>= 3.0.2),NA,BH (>= 1.60.0-1),"Rcpp, RUnit, knitr, rmarkdown",NA,GPL-2,NA,NA,NA,NA,yes,3.4.3
+RcppRoll,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.2.2,NA,R (>= 2.15.1),Rcpp,Rcpp,"zoo, microbenchmark, testthat, RcppArmadillo",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+RCurl,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.95-4.10,NA,"R (>= 3.0.0), methods, bitops",NA,NA,"Rcompression, XML",NA,BSD,NA,NA,NA,NA,yes,3.4.3
+readODS,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.6.4,NA,NA,"xml2 (>= 1.0.0), cellranger, readr",NA,"dplyr, testthat, datasets",NA,GPL-3,NA,NA,NA,NA,no,3.4.3
+readr,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1.1,NA,R (>= 3.0.2),"Rcpp (>= 0.12.0.5), tibble, hms, R6","Rcpp, BH","curl, testthat, knitr, rmarkdown, stringi, covr",NA,GPL (>= 2) | file LICENSE,NA,NA,NA,NA,yes,3.4.3
+readstata13,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.9.0,NA,NA,Rcpp (>= 0.11.5),Rcpp,testthat,NA,GPL-2 | file LICENSE,NA,NA,NA,NA,yes,3.4.3
+readxl,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0.0,NA,NA,"cellranger, Rcpp (>= 0.11.6), tibble (>= 1.1)",Rcpp,"covr, knitr, rmarkdown, rprojroot (>= 1.1), testthat",NA,GPL-3,NA,NA,NA,NA,yes,3.4.3
+rebus,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1-3,NA,R (>= 3.1.0),"rebus.base (>= 0.0-3), rebus.datetimes, rebus.numbers,
+rebus.unicode (>= 0.0-2)",NA,testthat,NA,Unlimited,NA,NA,NA,NA,no,3.4.3
+rebus.base,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0-3,NA,R (>= 3.1.0),stats,NA,"stringi, testthat",NA,Unlimited,NA,NA,NA,NA,no,3.4.3
+rebus.datetimes,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0-1,NA,R (>= 3.1.0),rebus.base,NA,"stats, testthat",NA,Unlimited,NA,NA,NA,NA,no,3.4.3
+rebus.numbers,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0-1,NA,R (>= 3.1.0),"rebus.base, utils",NA,testthat,NA,Unlimited,NA,NA,NA,NA,no,3.4.3
+rebus.unicode,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.0-2,NA,R (>= 3.1.0),rebus.base (>= 0.0-2),NA,stringi,NA,Unlimited,NA,NA,NA,NA,no,3.4.3
+recipes,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.2,NA,"R (>= 3.1), dplyr, broom","tibble, stats, ipred, dimRed (>= 0.1.0), lubridate, timeDate,
+ddalpha, purrr, rlang (>= 0.1.1), gower, RcppRoll, tidyselect
+(>= 0.1.1), magrittr, Matrix",NA,"testthat, rpart, kernlab, fastICA, RANN, igraph, knitr,
+caret, ggplot2, rmarkdown, covr",NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+registry,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.5,NA,R (>= 2.6.0),utils,NA,NA,NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+regtools,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0.1,NA,"FNN,mvtnorm,dummies,car",NA,NA,"knitr, rmarkdown",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.4
+relimp,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0-5,NA,R (>= 2.0.0),"stats, utils",NA,"tcltk, nnet, MASS, Rcmdr",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+rematch,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0.1,NA,NA,NA,NA,"covr, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+rematch2,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.0.1,NA,NA,tibble,NA,"covr, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.4
+reports,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.4,NA,R (>= 2.15),NA,NA,"pander, knitr, knitcitations, ProjectTemplate",NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+reprex,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.2,NA,R (>= 3.0.2),"callr, knitr, rmarkdown, tools, utils, whisker",NA,"covr, devtools, formatR, fortunes, miniUI, rstudioapi, shiny,
+shinyjs, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+reshape,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.8.7,NA,R (>= 2.6.1),plyr,NA,NA,NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+reshape2,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.4.3,NA,R (>= 3.1),"plyr (>= 1.8.1), Rcpp, stringr",Rcpp,"covr, lattice, testthat (>= 0.8.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+reticulate,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.5,NA,R (>= 3.0),"utils, graphics, jsonlite, Rcpp (>= 0.12.7)",Rcpp,"testthat, knitr, callr",NA,Apache License 2.0,NA,NA,NA,NA,yes,3.4.3
+rgdal,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.2-16,NA,"R (>= 3.3.0), methods, sp (>= 1.1-0)","grDevices, graphics, stats, utils",sp,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+rgeos,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3-26,NA,R (>= 3.3.0),"methods, sp (>= 1.1-0), utils, stats, graphics",sp,"maptools (>= 0.8-5), testthat, XML, maps, rgdal",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+rgexf,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.15.3,NA,"XML, Rook, igraph",NA,NA,NA,NA,GPL (>= 3),NA,NA,NA,NA,yes,3.4.3
+rgl,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.99.9,NA,R (>= 3.2.0),"graphics, grDevices, stats, utils, htmlwidgets, htmltools,
+knitr, jsonlite (>= 0.9.20), shiny, magrittr, crosstalk",NA,"MASS, rmarkdown, deldir, orientlib, lattice, misc3d,
+rstudioapi, magick",NA,GPL,NA,NA,NA,NA,yes,3.4.3
+RgoogleMaps,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.4.1,NA,R (>= 2.10),"graphics, stats, utils, grDevices, methods, png",NA,"PBSmapping, maptools, sp, loa, RColorBrewer, leaflet",NA,GPL,NA,NA,NA,NA,no,3.4.3
+rio,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.5.5,NA,R (>= 2.15.0),"tools, stats, utils, foreign, haven (> 0.2.1), curl (>= 0.6),
+data.table (>= 1.9.8), readxl (>= 0.1.1), openxlsx, tibble",NA,"datasets, bit64, testthat, knitr, magrittr, clipr, csvy,
+feather, fst, jsonlite, readODS (>= 1.6.4), readr, rmatio, xml2
+(>= 1.0.0), yaml",NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+rJava,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.9-10,NA,"R (>= 2.5.0), methods",NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,yes,3.4.4
+rjson,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.2.15,NA,R (>= 3.1.0),NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,yes,3.4.1
+RJSONIO,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.3-0,NA,NA,methods,NA,NA,NA,BSD_3_clause + file LICENSE,NA,NA,NA,NA,yes,3.4.1
+rlang,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.2.1,NA,R (>= 3.1.0),NA,NA,"crayon, knitr, methods, pillar, rmarkdown (>= 0.2.65),
+testthat, covr",NA,GPL-3,NA,NA,NA,NA,yes,3.4.4
+rmarkdown,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.10,NA,R (>= 3.0),"tools, utils, knitr (>= 1.18), yaml (>= 2.1.5), htmltools (>=
+0.3.5), evaluate (>= 0.8), base64enc, jsonlite, rprojroot,
+mime, tinytex (>= 0.3), methods, stringr (>= 1.2.0)",NA,"shiny (>= 0.11), tufte, testthat, digest, dygraphs, tibble",NA,GPL-3,NA,NA,NA,NA,no,3.4.4
+rnaturalearth,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.0,NA,R (>= 3.1.1),"sp (>= 1.0.15), utils (>= 3.2.3), sf (>= 0.3-4)",NA,"rgdal, knitr (>= 1.12.3), testthat (>= 0.9.1), httr (>=
+1.1.0), devtools (>= 1.10.0), rnaturalearthdata (>= 0.1.0),
+rnaturalearthhires (>= 0.1.0), raster (>= 2.5-2), rgeos",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+rngtools,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.2.4,NA,"R (>= 3.0.0), methods, pkgmaker (>= 0.20)","stringr, digest",NA,"parallel, RUnit, knitr",NA,GPL-3,NA,NA,NA,NA,no,3.4.3
+rnoaa,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.7.0,NA,NA,"utils, httr (>= 1.0.0), crul (>= 0.2.0), lubridate, dplyr,
+tidyr, ggplot2, scales, XML, xml2, jsonlite, rappdirs,
+gridExtra, tibble, isdparser (>= 0.2.0), geonames, hoardr",NA,"roxygen2 (>= 6.0.1), testthat, knitr, taxize, ncdf4, leaflet,
+rgdal, rmarkdown, purrr, ggmap, ropenaq",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+robustbase,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.92-8,NA,R (>= 3.0.2),"stats, graphics, utils, methods, DEoptimR",NA,"grid, MASS, lattice, boot, cluster, Matrix, robust,
+fit.models, MPV, xtable, ggplot2, GGally, RColorBrewer,
+reshape2, sfsmisc, catdata",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+RODBC,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.3-15,NA,R (>= 3.0.0),stats,NA,NA,NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,3.4.1
+Rook,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1-1,NA,R (>= 2.13.0),"utils, tools, methods, brew",NA,NA,NA,GPL-2,NA,NA,NA,NA,yes,3.4.1
+roxygen2,C:/Users/mmorris/Documents/R/R-3.4.3/library,6.0.1.9000,NA,R (>= 3.1),"brew,
+commonmark,
+desc,
+digest,
+methods,
+pkgload,
+purrr,
+R6 (>= 2.1.2),
+Rcpp (>= 0.11.0),
+stringi,
+stringr (>= 0.5),
+utils,
+xml2",Rcpp,"covr,
+devtools,
+knitr,
+rmarkdown,
+testthat (>= 0.8.0)",NA,GPL (>= 2),NA,NA,NA,NA,NA,3.4.3
+rpart,C:/Users/mmorris/Documents/R/R-3.4.3/library,4.1-11,recommended,"R (>= 2.15.0), graphics, stats, grDevices",NA,NA,survival,NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,3.4.3
+rpf,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.56,NA,"methods, parallel, R (>= 2.14.0)",mvtnorm,RcppEigen,"testthat, roxygen2, ggplot2, reshape2, gridExtra, numDeriv,
+knitr, mirt",NA,GPL (>= 3),NA,NA,NA,NA,yes,3.4.3
+rprojroot,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.3-2,NA,R (>= 3.0.0),backports,NA,"testthat, mockr, knitr, withr, rmarkdown",NA,GPL-3,NA,NA,NA,NA,no,3.4.3
+rsconnect,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.8.5,NA,R (>= 3.0.0),"digest, PKI, RCurl, RJSONIO, packrat (>= 0.4.8-1), yaml (>=
+2.1.5), rstudioapi (>= 0.5)",NA,"scrypt, knitr, testthat, rmarkdown (>= 1.1), plumber (>=
+0.3.2)",BiocInstaller,GPL-2,NA,NA,NA,NA,no,3.4.3
+RSpectra,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.12-0,NA,R (>= 3.0.2),"Matrix (>= 1.1-0), Rcpp (>= 0.11.5)","Rcpp, RcppEigen (>= 0.3.2.2.0)",knitr,NA,MPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+RSQLite,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.0,NA,R (>= 3.1.0),"bit64, blob (>= 1.1), DBI (>= 0.4-9), memoise, methods,
+pkgconfig, Rcpp (>= 0.12.7)","Rcpp, BH, plogr","DBItest, knitr, rmarkdown, testthat",NA,LGPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+rstan,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.17.3,NA,"R (>= 3.0.2), ggplot2 (>= 2.0.0), StanHeaders (>= 2.17.2)","methods, stats4, inline, gridExtra (>= 2.0.0), Rcpp (>=
+0.12.0)","Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0), BH (>= 1.65),
+StanHeaders (>= 2.17.2)","RUnit, RcppEigen (>= 0.3.3.3.0), BH (>= 1.65), parallel,
+KernSmooth, loo (>= 1.0.0), shinystan (>= 2.2.1), bayesplot,
+rstantools, rstudioapi, Matrix, knitr (>= 1.15.1)",NA,GPL (>= 3),NA,NA,NA,NA,yes,3.4.3
+rstanarm,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.17.2,NA,"R (>= 3.0.2), Rcpp (>= 0.12.0), methods","bayesplot (>= 1.2.0), ggplot2 (>= 2.2.1), lme4 (>= 1.1-8), loo
+(>= 1.1.0), Matrix, nlme (>= 3.1-124), rstan (>= 2.17.2),
+rstantools (>= 1.2.0), shinystan (>= 2.3.0), stats, survival
+(>= 2.40.1), utils","StanHeaders (>= 2.17.1), rstan (>= 2.17.2), BH (>= 1.65.0),
+Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0)","arm, betareg, data.table (>= 1.10.0), digest, gridExtra,
+HSAUR3, knitr (>= 1.15.1), MASS, mgcv (>= 1.8-13), rmarkdown,
+roxygen2, testthat (>= 1.0.2)",NA,GPL (>= 3),NA,NA,NA,NA,yes,3.4.3
+rstantools,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.4.0,NA,NA,"stats, utils",NA,"bayesplot (>= 1.2.0), rstan (>= 2.17.2), rstanarm (>=
+2.17.2), shinystan (>= 2.3.0), loo (>= 1.1.0), testthat, covr,
+knitr, rmarkdown",NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+rstudioapi,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.7,NA,NA,NA,NA,"testthat, knitr, rmarkdown",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+Rttf2pt1,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.3.5,NA,R (>= 2.15),NA,NA,NA,NA,file LICENSE,yes,NA,NA,NA,yes,3.4.3
+RVAideMemoire,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.9-69,NA,NA,"ade4 (>= 1.7-8), boot, car, cramer, dunn.test, FactoMineR,
+graphics, grDevices, lme4 (>= 1.0-4), MASS, mixOmics (>=
+5.0.2), multcompView, nnet, pls, pspearman, stats, utils, vegan
+(>= 2.4-3)",NA,"dgof, EMT, emmeans, npsm, ordinal, survival",NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+rvcheck,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.0,NA,R (>= 3.3.0),utils,NA,NA,NA,Artistic-2.0,NA,NA,NA,NA,no,3.4.4
+rvest,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3.2,NA,"R (>= 3.0.1), xml2","httr (>= 0.5), selectr, magrittr",NA,"testthat, knitr, png, stringi (>= 0.3.1), rmarkdown, covr",NA,GPL-3,NA,NA,NA,NA,no,3.4.3
+RWiener,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.3-1,NA,R (>= 3.0.0),"stats, graphics",NA,MASS,NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+sandwich,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.4-0,NA,R (>= 2.10.0),"stats, utils, zoo",NA,"AER, car, geepack, lattice, lmtest, MASS, multiwayvcov, pcse,
+plm, pscl, scatterplot3d, stats4, strucchange, survival",NA,GPL-2 | GPL-3,NA,NA,NA,NA,no,3.4.3
+scales,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.5.0,NA,R (>= 2.13),"RColorBrewer, dichromat, plyr, munsell (>= 0.2), labeling,
+Rcpp, R6, viridisLite",Rcpp,"testthat (>= 0.8), bit64, covr, hms",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+scatterplot3d,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3-41,NA,R (>= 2.7.0),"grDevices, graphics, stats",NA,NA,NA,GPL-2,NA,NA,NA,NA,no,3.4.4
+scico,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0.0,NA,R (>= 2.10),grDevices,NA,ggplot2,NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.4
+SCRT,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.2.2,NA,R (>= 2.14.1),"graphics, utils",NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+selectr,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3-1,NA,R (>= 2.15.2),"methods, stringr",NA,"testthat, XML, xml2",NA,BSD_3_clause + file LICENCE,NA,NA,NA,NA,no,3.4.3
+sem,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.1-9,NA,"R (>= 2.14.0), stats","matrixcalc, MASS, boot, mi (>= 0.9-99), utils",NA,"polycor, MBESS, DiagrammeR",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+semTools,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.4-14,NA,"R(>= 3.0), methods, lavaan(>= 0.5-22), utils, stats, graphics",NA,NA,"MASS, parallel, Amelia, mice, foreign, OpenMx(>= 2.0.0),
+GPArotation, mnormt, boot",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+sf,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.6-3,NA,"R (>= 3.3.0), methods","utils, stats, tools, graphics, grDevices, grid, Rcpp, DBI (>=
+0.8), units (>= 0.5-1), classInt, magrittr",Rcpp,"lwgeom (>= 0.1-2), maps, rgdal, rgeos, sp (>= 1.2-4), raster,
+spatstat, tmap, maptools, RSQLite, tibble (>= 1.4.1), pillar,
+rlang, dplyr (>= 0.7-0), tidyr (>= 0.7-2), RPostgreSQL,
+RPostgres (>= 1.1.0), odbc, tidyselect, ggplot2, mapview,
+testthat, knitr, covr, microbenchmark, rmarkdown",NA,GPL-2 | MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.4
+sfsmisc,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1-2,NA,R (>= 3.2.0),"grDevices, methods, utils, stats",NA,"datasets, tcltk, cluster, lattice, MASS, Matrix, nlme, lokern","mgcv, rpart, nor1mix, polycor, sm, tikzDevice",GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+shiny,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0.5,NA,"R (>= 3.0.2), methods","utils, httpuv (>= 1.3.5), mime (>= 0.3), jsonlite (>= 0.9.16),
+xtable, digest, htmltools (>= 0.3.5), R6 (>= 2.0), sourcetools,
+tools",NA,"datasets, Cairo (>= 1.5-5), testthat, knitr (>= 1.6),
+markdown, rmarkdown, ggplot2, magrittr",NA,GPL-3 | file LICENSE,NA,NA,NA,NA,no,3.4.3
+shinyjs,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0,NA,R (>= 3.1.0),"digest (>= 0.6.8), htmltools (>= 0.2.9), jsonlite, shiny (>=
+1.0.0)",NA,"knitr (>= 1.7), rmarkdown, shinyAce, testthat (>= 0.9.1), V8
+(>= 0.6)",NA,AGPL-3,NA,NA,NA,NA,no,3.4.3
+shinystan,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.4.0,NA,"R (>= 3.1.0), shiny (>= 1.0.3)","bayesplot (>= 1.2.0), colourpicker, DT (>= 0.2), dygraphs (>=
+1.1.1.2), ggplot2 (>= 2.1.1), gridExtra, gtools, markdown (>=
+0.7.4), methods, reshape2, rsconnect (>= 0.4.2), rstan (>=
+2.14.1), stats, shinyjs (>= 0.6.0), shinythemes (>= 1.0.1),
+threejs (>= 0.2.1), utils, xtable, xts (>= 0.9-7)",NA,"coda, knitr (>= 1.9), rmarkdown (>= 0.8.1), rstanarm (>=
+2.15.3), testthat",NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+shinythemes,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1.1,NA,R (>= 3.0.0),shiny (>= 0.11),NA,NA,NA,GPL-3 | file LICENSE,NA,NA,NA,NA,no,3.4.3
+signal,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.7-6,NA,R (>= 2.14.0),"MASS, graphics, grDevices, stats, utils",NA,pracma,NA,GPL-2,NA,NA,NA,NA,yes,3.4.3
+sjlabelled,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0.10,NA,"R (>= 3.2), stats","broom, dplyr (>= 0.7.1), haven (>= 1.0.0), magrittr,
+prediction, purrr (>= 0.2.2.2), rlang, snakecase (>= 0.8.1),
+tibble (>= 1.3.3), tidyselect, utils",NA,"ggplot2, glmmTMB, Hmisc, sjmisc (>= 2.6.1), sjPlot, survey,
+knitr, rmarkdown, Zelig",NA,GPL-3,NA,NA,NA,NA,no,3.4.4
+sjmisc,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.7.0,NA,"R (>= 3.2), stats, utils","broom (>= 0.4.2), cli, crayon, dplyr (>= 0.7.1), haven (>=
+1.0.0), magrittr, pillar, psych, purrr, rlang, sjlabelled (>=
+1.0.7), stringdist (>= 0.9.4), stringr (>= 1.2.0), tibble (>=
+1.4.1), tidyr (>= 0.7.0), tidyselect",NA,"ggplot2, graphics, Hmisc, mice, sjPlot (>= 2.4.0), sjstats
+(>= 0.13.0), knitr, rmarkdown",NA,GPL-3,NA,NA,NA,NA,no,3.4.3
+sjPlot,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.4.1,NA,"R (>= 3.2), graphics, grDevices, stats, utils","arm, broom (>= 0.4.2), dplyr (>= 0.7.1), effects, forcats,
+ggeffects (>= 0.3.1), glmmTMB, ggplot2 (>= 2.2.1), knitr, lme4
+(>= 1.1-12), magrittr, MASS, merTools (>= 0.3.0), modelr, nlme,
+psych, purrr, rlang, scales, sjlabelled (>= 1.0.7), sjmisc (>=
+2.6.3), sjstats (>= 0.14.0), tidyselect, tibble (>= 1.3.3),
+tidyr (>= 0.7.0)",NA,"AICcmodavg, car, cluster, GPArotation, gridExtra, ggrepel,
+ggridges, lmerTest, lmtest, rstanarm, survey, viridis,
+wesanderson, Zelig",NA,GPL-3,NA,NA,NA,NA,no,3.4.4
+sjstats,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.14.2-3,NA,"R (>= 3.2), stats, utils","bayesplot, broom, coin, crayon, dplyr (>= 0.7.1), emmeans,
+lme4 (>= 1.1-12), lmtest (>= 0.9-34), glmmTMB, magrittr, MASS,
+Matrix, modelr, nlme, prediction, purrr (>= 0.2.2), pwr, rlang,
+sandwich (>= 2.3-4), sjlabelled (>= 1.0.8), sjmisc (>= 2.7.0),
+tidyr (>= 0.7.0), tidyselect, tibble (>= 1.3.3)",NA,"AER, apaTables, arm, brms, car, ggplot2, graphics, Hmisc,
+knitr, MBESS, pbkrtest (>= 0.4-7), pROC, psych, sjPlot, survey,
+rstan, rstanarm, tidyverse, Zelig",NA,GPL-3,NA,NA,NA,NA,no,3.4.4
+skimr,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0.1,NA,R (>= 3.1.2),"dplyr (>= 0.7), magrittr, pander, purrr, rlang, stats, stringr
+(>= 1.1), knitr, tibble (>= 0.6), tidyr (>= 0.7), tidyselect",NA,"extrafont, rmarkdown, testthat, withr",NA,GPL-3,NA,NA,NA,NA,no,3.4.3
+slam,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1-42,NA,R (>= 3.4.0),stats,NA,NA,"Matrix, SparseM, spam",GPL-2,NA,NA,NA,NA,yes,3.4.3
+slidifyLibraries,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3.1,NA,NA,NA,NA,NA,NA,MIT,NA,NA,NA,NA,NA,3.4.3
+sna,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.4,NA,"R (>= 2.0.0), utils, statnet.common, network",NA,NA,"rgl, numDeriv, SparseM",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+snakecase,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.8.1,NA,R (>= 3.1),"stringr, purrr, magrittr, stringi",NA,"testthat, covr, tibble, purrrlyr, knitr, rmarkdown",NA,GPL-3,NA,NA,NA,NA,no,3.4.3
+SnowballC,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.5.1,NA,NA,NA,NA,NA,NA,BSD_2_clause + file LICENSE,NA,NA,NA,NA,yes,3.4.1
+sourcetools,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.6,NA,R (>= 3.0.2),NA,NA,testthat,NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+sp,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.2-7,NA,"R (>= 3.0.0), methods","utils, stats, graphics, grDevices, lattice, grid",NA,"RColorBrewer, rgdal (>= 0.8-7), rgeos (>= 0.3-13), gstat,
+maptools, deldir",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+spacyr,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.9.3,NA,"R (>= 3.3.0), methods","data.table, utils, reticulate",NA,"rmarkdown, testthat, knitr",NA,GPL-3,NA,NA,NA,NA,no,3.4.3
+SparseM,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.77,NA,"R (>= 2.15), methods","graphics, stats, utils",NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.1
+spatial,C:/Users/mmorris/Documents/R/R-3.4.3/library,7.3-11,recommended,"R (>= 3.0.0), graphics, stats, utils",NA,NA,MASS,NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,3.4.3
+splines,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.4.3,base,NA,"graphics, stats",NA,"Matrix, methods",NA,Part of R 3.4.3,NA,NA,NA,NA,yes,3.4.3
+SQUAREM,C:/Users/mmorris/Documents/R/R-3.4.3/library,2017.10-1,NA,R (>= 3.0),NA,NA,setRNG,NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.2
+stabledist,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.7-1,NA,R (>= 3.1.0),stats,NA,"Matrix, fBasics, FMStable, RUnit, Rmpfr, sfsmisc",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+StanHeaders,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.17.2,NA,NA,NA,NA,"RcppEigen, BH",NA,BSD_3_clause + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+stargazer,C:/Users/mmorris/Documents/R/R-3.4.3/library,5.2.1,NA,NA,"stats, utils",NA,NA,"AER, betareg, brglm, censReg, dynlm, eha, erer, ergm, fGarch,
+gee, glmx, gmm, lfe, lme4, lmtest, MASS, mclogit, mgcv, mlogit,
+mnlogit, nlme, nnet, ordinal, plm, pscl, quantreg, rms,
+relevent, robustbase, sampleSelection, spdep, survey, survival,
+Zelig",GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+statnet.common,C:/Users/mmorris/Documents/R/R-3.4.3/library,4.0.0,NA,NA,"utils, methods",NA,NA,NA,GPL-3 + file LICENSE,NA,NA,NA,NA,yes,3.4.1
+stats,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.4.3,base,NA,"utils, grDevices, graphics",NA,"MASS, Matrix, SuppDists, methods, stats4",NA,Part of R 3.4.3,NA,NA,NA,NA,yes,3.4.3
+stats4,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.4.3,base,NA,"graphics, methods, stats",NA,NA,NA,Part of R 3.4.3,NA,NA,NA,NA,NA,3.4.3
+stopwords,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.9.0,NA,R (>= 2.10),ISOcodes,NA,"quanteda, testthat, covr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+storr,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.2.0,NA,R (>= 3.1.0),"R6 (>= 2.1.0), digest",NA,"DBI (>= 0.6), RSQLite (>= 1.1-2), RPostgres, knitr, mockr,
+progress, rbenchmark, testthat (>= 1.0.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.4
+stringdist,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.9.4.6,NA,R (>= 2.15.3),parallel,NA,testthat,NA,GPL-3,NA,NA,NA,NA,yes,3.4.3
+stringi,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1.7,NA,R (>= 2.14),"tools, utils, stats",NA,NA,NA,file LICENSE,yes,NA,NA,NA,yes,3.4.4
+stringr,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.3.0,NA,R (>= 3.1),"glue, magrittr, stringi (>= 1.1.6)",NA,"covr, htmltools, htmlwidgets, knitr, rmarkdown, testthat",NA,GPL-2 | file LICENSE,NA,NA,NA,NA,no,3.4.3
+styler,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0.2,NA,NA,"backports, cli, enc (>= 0.2), magrittr, purrr (>= 0.2.3),
+rematch2, rlang, rprojroot, tibble (>= 1.4.2), withr",NA,"data.tree, dplyr, here, knitr, rmarkdown, rstudioapi,
+testthat",NA,GPL-3,NA,NA,NA,NA,no,3.4.4
+summarytools,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.8.6,NA,NA,"grDevices, htmltools, lubridate, matrixStats, methods, pander,
+pryr, rapportools, RCurl, utils",NA,"rstudioapi, knitr, rmarkdown",NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+SuppDists,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1-9.4,NA,R (>= 3.3.0),NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.1
+survey,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.33,NA,"R (>= 2.16.0), grid, methods, Matrix, survival","stats, graphics, splines, lattice",NA,"foreign, MASS, KernSmooth, hexbin, mitools, RSQLite, RODBC,
+quantreg, parallel, CompQuadForm, DBI",NA,GPL-2 | GPL-3,NA,NA,NA,NA,no,3.4.3
+survival,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.41-3,recommended,R (>= 2.13.0),"graphics, Matrix, methods, splines, stats, utils",NA,NA,NA,LGPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+svglite,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.2.1,NA,R (>= 3.0.0),"Rcpp, gdtools (>= 0.1.6)","Rcpp, gdtools, BH","htmltools, testthat, xml2 (>= 1.0.0), covr, fontquiver (>=
+0.2.0), knitr, rmarkdown",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.4
+tcltk,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.4.3,base,NA,utils,NA,NA,NA,Part of R 3.4.3,NA,NA,NA,NA,yes,3.4.3
+tcltk2,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.2-11,NA,"R (>= 2.8.0), tcltk",NA,NA,utils,NA,LGPL-3 + file LICENSE,NA,NA,NA,NA,no,3.4.1
+testthat,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.0.0,NA,R (>= 3.1),"cli, crayon, digest, magrittr, methods, praise, R6 (>= 2.2.0),
+rlang, withr (>= 2.0.0)",NA,"covr, devtools, knitr, rmarkdown, xml2",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+TH.data,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0-8,NA,"R (>= 2.10.0), survival, MASS",NA,NA,"dplyr, gdata, plyr",NA,GPL-3,NA,NA,NA,NA,no,3.4.3
+threejs,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3.1,NA,"R (>= 3.0.0), igraph (>= 1.0.0)","htmlwidgets (>= 0.3.2), base64enc, crosstalk, methods, stats",NA,maps,"knitr, shiny",MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+tibble,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.4.2,NA,R (>= 3.1.0),"cli, crayon, methods, pillar (>= 1.1.0), rlang, utils",NA,"covr, dplyr, import, knitr (>= 1.5.32), microbenchmark,
+mockr, nycflights13, rmarkdown, testthat, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+tidycensus,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.4,NA,R (>= 3.3.0),"httr, sf, dplyr (>= 0.7.0), tigris, stringr, jsonlite, purrr,
+rvest, tidyr (>= 0.7.0), rappdirs, readr, xml2, units",NA,NA,NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+tidyr,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.8.0,NA,R (>= 3.2),"dplyr (>= 0.7.0), glue, magrittr, purrr, Rcpp, rlang, stringi,
+tibble, tidyselect",Rcpp,"covr, gapminder, knitr, rmarkdown, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+tidyselect,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.2.4,NA,R (>= 3.1),"glue, purrr, rlang (>= 0.2.0), Rcpp (>= 0.12.0)","Rcpp (>= 0.12.0),","covr, dplyr, testthat",NA,GPL-3,NA,NA,NA,NA,yes,3.4.4
+tidytext,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.6,NA,R (>= 2.10),"rlang, dplyr, stringr, hunspell, broom, Matrix, tokenizers,
+janeaustenr, purrr (>= 0.1.1), methods, stopwords",NA,"readr, tidyr, XML, tm, quanteda, knitr, rmarkdown, ggplot2,
+reshape2, wordcloud, topicmodels, NLP, scales, gutenbergr,
+testthat, mallet, stm",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+tidyverse,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.2.1,NA,NA,"broom (>= 0.4.2), cli (>= 1.0.0), crayon (>= 1.3.4), dplyr (>=
+0.7.4), dbplyr (>= 1.1.0), forcats (>= 0.2.0), ggplot2 (>=
+2.2.1), haven (>= 1.1.0), hms (>= 0.3), httr (>= 1.3.1),
+jsonlite (>= 1.5), lubridate (>= 1.7.1), magrittr (>= 1.5),
+modelr (>= 0.1.1), purrr (>= 0.2.4), readr (>= 1.1.1), readxl
+(>= 1.0.0), reprex (>= 0.1.1), rlang (>= 0.1.4), rstudioapi (>=
+0.7), rvest (>= 0.3.2), stringr (>= 1.2.0), tibble (>= 1.3.4),
+tidyr (>= 0.7.2), xml2 (>= 1.1.1)",NA,"feather (>= 0.3.1), knitr (>= 1.17), rmarkdown (>= 1.7.4)",NA,GPL-3 | file LICENSE,NA,NA,NA,NA,no,3.4.3
+tigris,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.6.2,NA,R (>= 3.3.0),"stringr, magrittr, rgdal, sp, utils, rappdirs, maptools, httr,
+uuid, sf, dplyr, methods",NA,"acs, testthat, ggplot2, ggthemes, leaflet, knitr, rgeos",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+timeDate,C:/Users/mmorris/Documents/R/R-3.4.3/library,3043.102,NA,"R (>= 2.15.1), graphics, utils, stats, methods",NA,NA,"date, RUnit",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+timeSeries,C:/Users/mmorris/Documents/R/R-3.4.3/library,3042.102,NA,"R (>= 2.10), graphics, grDevices, stats, methods, utils,
+timeDate (>= 2150.95)",NA,NA,"RUnit, robustbase, xts, PerformanceAnalytics, fTrading",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+tinytex,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.7,NA,NA,xfun (>= 0.3),NA,testit,NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.4
+tm,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.7-3,NA,"R (>= 3.2.0), NLP (>= 0.1-6.2)","Rcpp, parallel, slam (>= 0.1-37), stats, tools, utils,
+graphics, xml2","BH, Rcpp","antiword, filehash, methods, pdftools, Rcampdf, Rgraphviz,
+Rpoppler, SnowballC, testthat, tm.lexicon.GeneralInquirer",NA,GPL-3,NA,NA,NA,NA,yes,3.4.3
+TMB,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.7.13,NA,R (>= 3.0.0),"graphics, methods, stats, utils, Matrix (>= 1.0-12)","Matrix, RcppEigen","numDeriv, parallel",NA,GPL-2,NA,NA,NA,NA,yes,3.4.4
+tokenizers,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.4,NA,R (>= 3.1.3),"stringi (>= 1.0.1), Rcpp (>= 0.12.3), SnowballC (>= 0.5.1)",Rcpp,"testthat, covr, knitr, rmarkdown",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+tools,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.4.3,base,NA,NA,NA,"codetools, methods, xml2, curl",NA,Part of R 3.4.3,NA,NA,NA,NA,yes,3.4.3
+transformr,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.0,NA,NA,"Rcpp (>= 0.12.15),
+tweenr,
+rlang,
+sf,
+lpSolve",Rcpp,magrittr,NA,MIT + file LICENSE,NA,NA,NA,NA,NA,3.4.3
+translations,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.4.3,NA,NA,NA,NA,NA,NA,Part of R 3.4.3,NA,NA,NA,NA,NA,3.4.3
+triebeard,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3.0,NA,NA,Rcpp,Rcpp,"knitr, rmarkdown, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+trimcluster,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1-2,NA,R (>= 1.9.0),NA,NA,fpc,NA,GPL,NA,NA,NA,NA,NA,3.4.3
+tuneR,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.3.2,NA,R (>= 3.0.0),"signal, methods",NA,pastecs,NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,3.4.3
+tweenr,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.5.9999,NA,R (>= 3.2.0),"Rcpp (>= 0.12.3),
+grDevices,
+farver,
+magrittr,
+rlang",Rcpp,NA,NA,MIT + file LICENSE,NA,NA,NA,NA,NA,3.4.3
+twilio,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1.0,NA,R (>= 3.1.0),"purrr, httr, jsonlite, magrittr, lubridate",NA,testthat,NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+ucminf,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1-4,NA,NA,NA,NA,numDeriv,NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.1
+udunits2,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.13,NA,R (>= 2.10.0),NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,yes,3.4.1
+units,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.5-1,NA,R (>= 3.0.0),udunits2 (>= 0.13),NA,"NISTunits, measurements, xml2, tibble, pillar, knitr,
+testthat, ggforce, rmarkdown, magrittr",NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+urltools,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.7.0,NA,R (>= 2.10),"Rcpp, methods, triebeard",Rcpp,"testthat, knitr",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+userfriendlyscience,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.7.0,NA,NA,"BiasedUrn, car, data.tree, DiagrammeR, diptest, digest,
+fBasics, GGally, ggplot2, ggrepel, ggridges, gridExtra,
+GPArotation, gtable, knitr, lavaan, lme4, MASS, MBESS,
+minpack.lm, pander, plyr, psych, pwr, RColorBrewer, rio,
+scales, SCRT, SuppDists, viridis, XML, xtable",NA,NA,NA,GPL (>= 3),NA,NA,NA,NA,no,3.4.3
+usethis,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.3.0,NA,R (>= 3.1),"backports (>= 1.1.0), clipr, clisymbols, crayon, curl (>=
+2.7), desc, gh, git2r, httr, rematch2, rmarkdown, rprojroot,
+rstudioapi, styler, whisker",NA,"covr, knitr, roxygen2, testthat (>= 2.0.0), withr",NA,GPL-3,NA,NA,NA,NA,no,3.4.4
+utf8,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1.3,NA,R (>= 2.10),NA,NA,"corpus, knitr, rmarkdown, testthat",NA,Apache License (== 2.0) | file LICENSE,NA,NA,NA,NA,yes,3.4.3
+utils,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.4.3,base,NA,NA,NA,"methods, XML",NA,Part of R 3.4.3,NA,NA,NA,NA,yes,3.4.3
+uuid,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.1-2,NA,R (>= 2.9.0),NA,NA,NA,NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.1
+V8,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.5,NA,NA,"Rcpp (>= 0.12), jsonlite (>= 1.0), curl (>= 1.0), utils",Rcpp,"testthat, knitr, rmarkdown",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.4.4
+vcd,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.4-4,NA,"R (>= 2.4.0), grid","stats, utils, MASS, grDevices, colorspace, lmtest",NA,"KernSmooth, mvtnorm, kernlab, HSAUR, coin",NA,GPL-2,NA,NA,NA,NA,no,3.4.3
+vcdExtra,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.7-1,NA,"R (>= 2.10), vcd, gnm (>= 1.0.3), grid","MASS, grDevices, stats, utils, ca",NA,"gmodels, Fahrmeir, effects, VGAM, plyr, lmtest, nnet,
+ggplot2, Sleuth2, car, lattice, stats4, rgl, AER",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+vegan,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.4-6,NA,"permute (>= 0.9-0), lattice, R (>= 3.0.0)","MASS, cluster, mgcv",NA,"parallel, tcltk, knitr",NA,GPL-2,NA,NA,NA,NA,yes,3.4.3
+venneuler,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1-0,NA,rJava,NA,NA,NA,NA,MPL-1.1,NA,NA,NA,NA,NA,3.4.3
+viridis,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.5.0,NA,"R (>= 2.10), viridisLite (>= 0.2.0)","stats, ggplot2 (>= 1.0.1), gridExtra",NA,"hexbin (>= 1.27.0), scales, MASS, knitr, dichromat,
+colorspace, rasterVis, httr, mapproj, vdiffr, svglite (>=
+1.2.0), testthat, covr, rmarkdown, rgdal",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+viridisLite,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3.0,NA,R (>= 2.10),NA,NA,"hexbin (>= 1.27.0), ggplot2 (>= 1.0.1), testthat, covr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+visNetwork,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.0.3,NA,R (>= 3.0),"htmlwidgets, htmltools, jsonlite, magrittr, utils, methods,
+grDevices, stats",NA,"knitr, rmarkdown, webshot, igraph, rpart, shiny,
+shinyWidgets, colourpicker, sparkline, ggraph, flashClust",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.3
+WDI,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.4,NA,RJSONIO,NA,NA,NA,NA,GPL-3,NA,NA,NA,NA,no,3.4.1
+weights,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.90,NA,"Hmisc, gdata, mice",NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.4
+whisker,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3-2,NA,NA,NA,NA,markdown,NA,GPL-3,NA,NA,NA,NA,no,3.4.3
+withr,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.1.2,NA,R (>= 3.0.2),"stats,
+graphics,
+grDevices",NA,"testthat,
+covr,
+lattice,
+DBI,
+RSQLite,
+methods,
+knitr,
+rmarkdown",NA,GPL (>= 2),NA,NA,NA,NA,NA,3.4.3
+wordcloud,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.5,NA,"methods, RColorBrewer","slam, Rcpp (>= 0.9.4)",Rcpp,tm (>= 0.6),NA,LGPL-2.1,NA,NA,NA,NA,yes,3.4.3
+wrapr,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.1.1,NA,NA,NA,NA,"testthat, knitr, rmarkdown",NA,GPL-3,NA,NA,NA,NA,no,3.4.3
+WRS2,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.9-2,NA,R (>= 3.0.0),"MASS, reshape, plyr, stats, graphics, grDevices, utils, mc2d",NA,"knitr, beanplot, car, colorspace, ez, MBESS",NA,GPL-3,NA,NA,NA,NA,yes,3.4.3
+xfun,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.3,NA,NA,tools,NA,"testit, parallel, rstudioapi, tinytex, mime, markdown, knitr,
+rmarkdown",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.4.4
+xgboost,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.6.4.1,NA,R (>= 3.3.0),"Matrix (>= 1.1-0), methods, data.table (>= 1.9.6), magrittr
+(>= 1.5), stringi (>= 0.5.2)",NA,"knitr, rmarkdown, ggplot2 (>= 1.0.1), DiagrammeR (>= 0.9.0),
+Ckmeans.1d.dp (>= 3.3.1), vcd (>= 1.3), testthat, igraph (>=
+1.0.1)",NA,Apache License (== 2.0) | file LICENSE,NA,NA,NA,NA,yes,3.4.3
+xlsx,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.5.7,NA,"rJava, xlsxjars",NA,NA,NA,NA,GPL-3,NA,NA,NA,NA,no,3.4.3
+xlsxjars,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.6.1,NA,rJava,NA,NA,NA,NA,GPL-3,NA,NA,NA,NA,no,3.4.3
+XML,C:/Users/mmorris/Documents/R/R-3.4.3/library,3.98-1.9,NA,"R (>= 2.13.0), methods, utils",NA,NA,"bitops, RCurl",NA,BSD_2_clause + file LICENSE,NA,NA,NA,NA,yes,3.4.3
+xml2,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.2.0,NA,R (>= 3.1.0),Rcpp,Rcpp (>= 0.12.12),"testthat, curl, covr, knitr, rmarkdown, magrittr, httr",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+xtable,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.8-2,NA,R (>= 2.10.0),"stats, utils",NA,"knitr, lsmeans, spdep, splm, sphet, plm, zoo, survival",NA,GPL (>= 2),NA,NA,NA,NA,no,3.4.3
+xts,C:/Users/mmorris/Documents/R/R-3.4.3/library,0.10-1,NA,zoo (>= 1.7-12),methods,zoo,"timeSeries, timeDate, tseries, chron, fts, tis, RUnit",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.4.3
+yaml,C:/Users/mmorris/Documents/R/R-3.4.3/library,2.2.0,NA,NA,NA,NA,RUnit,NA,BSD_3_clause + file LICENSE,NA,NA,NA,NA,yes,3.4.4
+zip,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.0.0,NA,NA,NA,NA,"covr, testthat, withr",NA,CC0,NA,NA,NA,NA,yes,3.4.4
+zoo,C:/Users/mmorris/Documents/R/R-3.4.3/library,1.8-1,NA,"R (>= 2.10.0), stats","utils, graphics, grDevices, lattice (>= 0.20-27)",NA,"coda, chron, DAAG, fts, ggplot2, mondate, scales,
+strucchange, timeDate, timeSeries, tis, tseries, xts",NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,3.4.3
